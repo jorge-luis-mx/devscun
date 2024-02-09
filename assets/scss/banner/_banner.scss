@@ -1,0 +1,17 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.banner{
+   margin-top: 5.2rem;
+   display: flex;
+   align-items: center;
+   @include m.gradiente(v.$colorBanner,v.$colorBannerDerecha);
+   min-height: 10rem;
+   .contenido-banner{
+        h1{
+           color: v.$blanco;
+           margin: 1rem;
+           font-size: 2.5rem;
+        }
+   }
+}

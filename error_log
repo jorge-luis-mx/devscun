@@ -1,0 +1,765 @@
+[03-Nov-2022 03:19:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'devsc871_devscun'@'s115.servername.online' to database 'devscun' in /home/devsc871/public_html/config/db.php on line 7
+[03-Nov-2022 03:19:55 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/devsc871/public_html/config/db.php:14
+Stack trace:
+#0 /home/devsc871/public_html/config/db.php(14): mysqli->set_charset()
+#1 /home/devsc871/public_html/config/db.php(26): Config->db_connect()
+#2 /home/devsc871/public_html/models/metaModel.php(14): Config->executeQuery()
+#3 /home/devsc871/public_html/views/layout/tag.php(9): Metas->get_metas()
+#4 /home/devsc871/public_html/index.php(6): require_once('/home/devsc871/...')
+#5 {main}
+  thrown in /home/devsc871/public_html/config/db.php on line 14
+[03-Nov-2022 03:20:38 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'devsc871_devscun'@'s115.servername.online' to database 'devscun' in /home/devsc871/public_html/config/db.php on line 7
+[03-Nov-2022 03:20:38 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/devsc871/public_html/config/db.php:14
+Stack trace:
+#0 /home/devsc871/public_html/config/db.php(14): mysqli->set_charset()
+#1 /home/devsc871/public_html/config/db.php(26): Config->db_connect()
+#2 /home/devsc871/public_html/models/metaModel.php(14): Config->executeQuery()
+#3 /home/devsc871/public_html/views/layout/tag.php(9): Metas->get_metas()
+#4 /home/devsc871/public_html/index.php(6): require_once('/home/devsc871/...')
+#5 {main}
+  thrown in /home/devsc871/public_html/config/db.php on line 14
+[03-Nov-2022 03:23:23 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:23:23 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:23:23 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 13
+[03-Nov-2022 03:25:21 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:25:21 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:25:21 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 13
+[03-Nov-2022 03:30:50 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:30:50 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:30:50 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:30:50 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:31:31 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:31:31 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:31:31 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:32:57 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:32:57 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:32:57 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:32:57 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:33:04 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:33:04 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:33:04 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:33:04 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:33:13 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:33:13 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:33:13 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:33:13 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:33:29 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:33:29 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:33:29 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:33:29 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:35:30 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:35:30 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:35:30 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:35:32 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:35:32 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:35:32 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:35:32 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:37:01 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:37:01 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:37:01 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:37:01 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:44:50 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:44:50 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:44:50 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:44:50 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:44:57 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:44:57 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:44:57 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:46:09 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 12
+[03-Nov-2022 03:46:09 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:46:09 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:48:05 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 9
+[03-Nov-2022 03:48:05 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:48:05 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:48:05 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:48:39 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 9
+[03-Nov-2022 03:48:39 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:48:39 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:48:39 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:51:02 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 9
+[03-Nov-2022 03:51:02 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:51:02 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 03:51:02 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[03-Nov-2022 03:58:20 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 10
+[03-Nov-2022 05:47:54 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 05:47:54 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 05:47:54 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 05:47:54 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 05:47:54 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 05:47:54 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 05:47:54 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 05:47:54 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 05:47:54 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 05:47:59 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 05:47:59 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 05:47:59 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 05:47:59 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 05:47:59 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 05:47:59 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 05:47:59 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 05:47:59 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 05:47:59 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 05:48:07 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 05:48:07 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 05:48:07 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 05:48:07 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 05:48:07 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 05:48:07 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 05:48:07 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 05:48:07 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 05:48:07 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:07:51 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:07:51 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:07:51 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:07:51 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:07:51 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:07:51 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:07:51 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:07:51 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:07:51 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:07:57 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:07:57 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:07:57 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:07:57 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:07:57 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:07:57 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:07:57 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:07:57 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:07:57 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:00 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:00 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:00 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:02 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:03 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:03 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:03 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:03 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:03 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:04 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[03-Nov-2022 15:08:05 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:05 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[03-Nov-2022 15:08:05 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:05 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[03-Nov-2022 15:08:05 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:05 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[03-Nov-2022 15:08:05 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:05 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[03-Nov-2022 15:08:05 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:01:49 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:49 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:49 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:49 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:49 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:49 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:49 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:49 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:49 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:01:52 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:52 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:52 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:52 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:52 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:52 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:52 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:52 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:52 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:01:53 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:53 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:53 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:53 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:53 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:53 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:53 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:53 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:53 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:59 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:59 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:59 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:59 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:01:59 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:03:47 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:03:47 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:03:47 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:03:47 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:03:47 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:03:47 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:03:47 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:03:47 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:03:47 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:11:57 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:11:57 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:11:57 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:11:57 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:11:57 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:11:57 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:11:57 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:11:57 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:11:57 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[04-Nov-2022 00:17:02 UTC] PHP Warning:  include_once(../config/db.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:17:02 UTC] PHP Warning:  include_once(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 4
+[04-Nov-2022 00:17:02 UTC] PHP Warning:  include_once(../config/helper.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:17:02 UTC] PHP Warning:  include_once(): Failed opening '../config/helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 5
+[04-Nov-2022 00:17:02 UTC] PHP Warning:  include_once(../models/metaModel.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:17:02 UTC] PHP Warning:  include_once(): Failed opening '../models/metaModel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/controllers/EmailController.php on line 6
+[04-Nov-2022 00:17:02 UTC] PHP Warning:  include(controllers/General.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:17:02 UTC] PHP Warning:  include(): Failed opening 'controllers/General.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[04-Nov-2022 00:17:02 UTC] PHP Fatal error:  Uncaught Error: Class "General" not found in /home/devsc871/public_html/controllers/EmailController.php:8
+Stack trace:
+#0 /home/devsc871/public_html/index.php(13): require_once()
+#1 {main}
+  thrown in /home/devsc871/public_html/controllers/EmailController.php on line 8
+[05-Nov-2022 02:15:08 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 18
+[05-Nov-2022 02:15:22 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 18
+[05-Nov-2022 02:16:48 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 02:16:48 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 02:16:48 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 52
+[05-Nov-2022 02:16:51 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 02:16:51 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 02:16:51 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 52
+[05-Nov-2022 02:16:52 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 18
+[05-Nov-2022 02:16:52 UTC] PHP Warning:  include(controllers/inicioController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 02:16:52 UTC] PHP Warning:  include(): Failed opening 'controllers/inicioController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 02:16:52 UTC] PHP Fatal error:  Uncaught Error: Class "inicioController" not found in /home/devsc871/public_html/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 20
+[05-Nov-2022 02:17:20 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 18
+[05-Nov-2022 02:17:58 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 18
+[05-Nov-2022 02:18:17 UTC] PHP Warning:  Undefined array key "route" in /home/devsc871/public_html/index.php on line 18
+[05-Nov-2022 03:19:39 UTC] PHP Warning:  include(controllers/paginaController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:19:39 UTC] PHP Warning:  include(): Failed opening 'controllers/paginaController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:19:39 UTC] PHP Fatal error:  Uncaught Error: Class "paginaController" not found in /home/devsc871/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 52
+[05-Nov-2022 03:20:49 UTC] PHP Warning:  include(controllers/paginaController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:20:49 UTC] PHP Warning:  include(): Failed opening 'controllers/paginaController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:20:49 UTC] PHP Fatal error:  Uncaught Error: Class "paginaController" not found in /home/devsc871/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 52
+[05-Nov-2022 03:20:59 UTC] PHP Warning:  include(controllers/paginaController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:20:59 UTC] PHP Warning:  include(): Failed opening 'controllers/paginaController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:20:59 UTC] PHP Fatal error:  Uncaught Error: Class "paginaController" not found in /home/devsc871/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 52
+[05-Nov-2022 03:21:04 UTC] PHP Warning:  include(controllers/paginaController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:21:04 UTC] PHP Warning:  include(): Failed opening 'controllers/paginaController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:21:04 UTC] PHP Fatal error:  Uncaught Error: Class "paginaController" not found in /home/devsc871/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 52
+[05-Nov-2022 03:22:00 UTC] PHP Warning:  include(controllers/paginaController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:22:00 UTC] PHP Warning:  include(): Failed opening 'controllers/paginaController.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/autoload.php on line 3
+[05-Nov-2022 03:22:00 UTC] PHP Fatal error:  Uncaught Error: Class "paginaController" not found in /home/devsc871/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 52
+[07-Nov-2022 02:00:53 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:00:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:00:59 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:00:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:05 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:07 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:08 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:09 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:09 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:10 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:01:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:00 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:03 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:11 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:13 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:50 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:51 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:02:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:03:58 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:03:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:04:08 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:04:22 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:04:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 02:07:51 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 14
+[07-Nov-2022 02:07:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[07-Nov-2022 02:07:53 UTC] PHP Warning:  require_once(controllers/errorController.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 14
+[07-Nov-2022 02:07:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/errorController.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 14
+[07-Nov-2022 04:05:50 UTC] PHP Warning:  require_once(controllers/PaginaController.php.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 04:05:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/PaginaController.php.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 04:08:00 UTC] PHP Warning:  require_once(controllers/PaginaController.php.php): Failed to open stream: No such file or directory in /home/devsc871/public_html/index.php on line 15
+[07-Nov-2022 04:08:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/PaginaController.php.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/devsc871/public_html/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/devsc871/public_html/index.php on line 15

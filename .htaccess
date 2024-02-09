@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+# Activar rewrite
+RewriteEngine on
+
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+
+#RewriteCond %{HTTP_HOST} !^www.devscun.com [NC]
+#RewriteRule ^(.*) https://www.devscun.com/$1 [L,R=301]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*) https://www.devscun.com/$1 [L,R=301]
+
+RewriteRule ^([-a-zA-Z0-9_/]+)$ index.php?route=$1
+
+# RewriteRule ^(.*)/(.*)index.php?controller=$1&action=$2
+
+#ErrorDocument 404 https://www.devscun.com/404
+Options -Indexes
+
+</IfModule>

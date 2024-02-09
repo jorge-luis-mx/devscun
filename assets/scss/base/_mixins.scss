@@ -1,0 +1,47 @@
+@use 'variables' as v;
+/*mixins---------*/
+@mixin boton($color){
+   height: 52px;
+   background:$color;
+   border: none;
+   border-radius: 5px;
+   font-size: 22px;
+   font-weight: 500;
+   color: #fff;
+   cursor: pointer;
+   width:170px;
+}
+
+ @mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}
+@mixin background-imagen($imagen) {
+   background-image: url($imagen);
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+@mixin gradiente($color1, $color2){
+   background: linear-gradient(to right, $color1 0%,$color2 100%);
+}
+
+/*Media Queries*/
+@mixin telefono{
+   @media(min-width:v.$telefono){
+       @content;
+   }
+}
+
+@mixin tablet{
+   @media (min-width:v.$tablet){
+       @content;
+   }
+}
+
+@mixin desktop{
+   @media (min-width:v.$desktop){
+       @content;
+   }
+}
+
+

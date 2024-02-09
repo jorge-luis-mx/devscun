@@ -1,0 +1,96 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.caja-servicios{
+   .subtitle-servicio{
+      font-size: 1.7rem;
+      line-height: 2.5rem;
+      color: v.$negro;
+      text-align: center;
+   }
+
+  .service-container{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      .contenedor-servicio{
+         margin: .6rem;
+         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+         border-radius: 5px;
+
+        .caja-servicio{
+         padding: .5rem;
+            h3{
+               color: v.$negro;
+               font-weight: normal;
+               text-align: center;
+               font-size: 1.5rem;
+            }
+            p{
+               text-align: center;
+               font-size: 1rem;
+               line-height: 1.8rem;
+            }
+
+            .item-icono{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-top: 1rem;
+               .caja-icono{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: v.$iconoServicio;
+                  width: 90px;
+                  height: 90px;
+                  border-radius: 100%;
+                  .icono{
+                     width: 30px;
+                     height: 30px;
+                     img{
+                        width: 100%;
+                     }
+                  }
+               }
+
+            }
+         }
+
+         @include m.telefono(){
+            flex: 0 0 calc(46%);
+         }
+         @include m.tablet(){
+            flex: 0 0 calc(45.8%);
+
+         }
+         @include m.desktop(){
+            flex: 1 0 calc(31%);
+         }
+      }
+      .contenedor-servicio:hover{
+         background-color: v.$cardServicioHover;
+         cursor: pointer;
+         color: v.$blanco;
+         transition: 0.3s;
+         h3{
+            color: v.$blanco;
+         }
+      }
+   }
+   .more-info-service{
+      padding: .5rem;
+      ul{
+         padding-left: 1rem;
+         margin: 0;
+         li{
+            margin-top: 1rem;
+         }
+
+      }
+      p{
+         line-height: 1.8rem;
+      }
+   }
+
+}

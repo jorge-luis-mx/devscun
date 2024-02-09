@@ -1,0 +1,71 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+/*=============================================
+GRID CATEGORIAS
+=============================================*/
+
+.grid figure{
+	position:relative;
+	border-top:0px;
+	border-bottom:0px;
+	border-left:8px solid white;
+	border-right:8px solid white;
+	cursor:pointer;
+	transition:1s all;
+}
+
+.grid .columna1{
+	width:40%;
+}
+
+.grid .photo1{
+	height:400px;
+	background-size:cover;
+	background-position:left;
+}
+
+.grid .photo2{
+	height:300px;
+	background-size:cover;
+	background-position:left;
+}
+
+.grid .photo3{
+	height:300px;
+	background-size:cover;
+	background-position:left;
+}
+
+.grid .photo4{
+	height:300px;
+	background-size:cover;
+	background-position:left;
+}
+
+.grid .photo5{
+	height:400px;
+	background-size:cover;
+	background-position:left;
+}
+
+.grid .photo6{
+	height:200px;
+	background-size:cover;
+	background-position:left;
+}
+
+.grid figure p{
+	position:absolute;
+	left:0px;
+	bottom:-20px;
+	width:100%;
+	background:rgba(0,0,0,.7);
+	color:white;
+	font-weight: 100;
+	font-size:20px;
+}
+
+.grid figure p:hover{
+	background:rgba(46, 31, 180, 0.7);
+}

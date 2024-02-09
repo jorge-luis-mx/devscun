@@ -1,0 +1,79 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+.nosotros{
+
+      .somos{
+            font-size: 1.2rem;
+            line-height: 2rem;
+            
+      }
+      .contenedor-nosotros {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            .nosotros-content{
+                  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                  margin: .8rem;
+                  margin-bottom: 2rem;
+                  @include m.telefono(){
+                        flex: 0 0 calc(46%);
+                  }
+                  @include m.tablet(){
+                        flex: 0 0 calc(45.8%);
+      
+            
+                  }
+                  @include m.desktop(){
+                        flex: 0 0 calc(35%);
+                  }
+                  .caja-nosotros{
+                        margin: .8rem;
+                        span{
+                              font-size: 1.5rem;
+                              color: #333333;
+                        }
+                        p{
+                              margin-top: 1rem;
+                        }
+                        hr.solid {
+                              border-top: 4px solid black;
+                              width: 60px;
+                              margin: 0;
+                              margin-bottom: -12px;
+                              position: relative;
+                        }
+                        .arrow {
+                              border: solid black;
+                              border-width: 0px 4px 4px 0px;
+                              display: inline-block;
+                              padding: 3px;
+                              transform: rotate(-45deg);
+                              margin-left: 51px;
+                        }
+                  }
+            }
+      
+         
+      }
+      h2{
+            padding: 1rem;
+      }
+      p{
+            font-size: 1rem;
+            line-height: 1.8rem;
+            padding: 1rem;
+      }
+      @include m.desktop(){
+            .somos{
+                  margin-left: .7rem;
+            }
+           p{
+            padding: 0rem;
+            margin-left: .5rem;
+           }
+           h2{
+            padding: 0rem;
+            margin-left: .5rem;
+           }
+      }
+}

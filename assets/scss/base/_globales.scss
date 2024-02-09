@@ -1,0 +1,84 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+
+html{
+   @include m.box-sizing(border-box);
+}
+*,
+*:after,
+*:before{
+   @include m.box-sizing(inherit);
+}
+
+body{
+   font-family: v.$fuente_principal;
+}
+h1{
+   font-size: 2.5rem;
+   line-height: 2.5rem;
+   color: v.$negro;
+   font-weight: 400;
+}
+h2{
+   font-size: 2.2rem;
+   font-weight: normal;
+   color: v.$negro;
+}
+h3{
+   font-size: 1.3rem;
+   color: v.$negro;
+   font-weight: 500;
+}
+h4{
+   font-size: 1.5rem;
+   color:white;
+   font-weight: normal;
+}
+.contenedor{
+   max-width: 1100px;
+   margin: 0 auto;
+}
+
+.oculto{
+   display: none;
+}
+.mostrar{
+   display: block;
+   color: v.$blanco;
+}
+.centrado{
+   text-align: center;
+}
+
+.mostrarMenuMovil{
+   left:0 !important;
+}
+.quitarMenuMovil{
+   left:-100% !important;
+}
+
+//page 404
+.paginas-container{
+   p{
+      text-align: center;
+      font-size: 1.3rem;
+      margin-bottom: 3rem;
+   }
+   .pagina-btn{
+      display: flex;
+      justify-content: center;
+      .enla-pagina-no-encontrada{
+         background:v.$btn-pagina;
+         border: none;
+         border-radius: 5px;
+         font-size: 22px;
+         font-weight: 500;
+         color: v.$blanco;
+         margin-top: 5px;
+         cursor: pointer;
+         padding: 1rem;
+      }
+   }
+}
+

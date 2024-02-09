@@ -1,0 +1,102 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.menu_nav{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background: v.$colorMenu;
+   z-index: 10000;
+   box-shadow: 0 0 1px 0 rgba(16, 16, 32, 0.25), 0 0 2px 0 rgba(0, 0, 0, 0.15);
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   .logo{
+       padding: 1.4rem 0;
+   }
+}
+
+.menu-link{
+   @include m.tablet(){
+       margin-right: 20px;
+   }
+}
+.menu-link ul{
+   list-style: none;
+}
+.menu-link ul li{
+   @include m.tablet(){
+       display: inline-block;
+   }
+
+}
+.menu-link ul li a{
+   @include m.desktop(){
+       font-size: 1.3em;
+   }
+   text-decoration: none;
+   color: v.$colorTextMenuNav;
+   margin-left: 15px;
+   font-size: 1.0em;
+   border-bottom: 2px solid transparent;
+   transition: .2s;
+}
+
+
+.menu-link ul li a:hover,.active{
+   @include m.tablet(){
+       border-bottom: 2px solid v.$colorHoverNavLine;
+       color: v.$colorHoverNavTex;
+   }
+   border-bottom: 2px solid v.$colorHoverNavLine;
+   color: v.$colorHoverNavTex;
+   cursor: pointer;
+}
+
+.icon-menu .btn-menu{
+   @include m.tablet(){
+       display: none;
+   }
+   text-decoration: none;
+   color: v.$negro;
+   font-size: 30px;
+   margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+   .menu-link{
+       position: absolute;
+       background: rgba(0, 0, 0,.7);
+       height: 200vh;
+       width: 100%;
+       top: 100px;
+       left: -100%;
+       z-index: 1000;
+   }
+   .menu-link ul {
+       padding: 0;
+       margin: 0;
+   }
+   .menu-link ul li{
+       display: block;
+   }
+   .menu-link ul li a{
+       display: block;
+       height: 50px;
+       border-bottom: 2px solid v.$blanco;
+       padding: 15px;
+       text-align: center;
+       margin: 0;
+       color: v.$blanco;
+       text-decoration: none;
+       font-size: 1.0em;
+       transition: .2s;
+   }
+
+}
+
+
+

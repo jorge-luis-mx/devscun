@@ -1,0 +1,271 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.barra{
+    min-height: 6rem;
+    padding: 1rem;
+    @include m.gradiente(v.$colorMenuServicios,v.$colorMenuServicoSegundo);
+    color: v.$blanco;
+   .iconos{
+       display: flex;
+       flex-direction: column;
+       flex: 1;
+       .icono{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            flex: 1;
+            .icono1,.icono2,.icono3,.icono4,.icono5{
+                width: 13%;
+                img{
+                    width: 100%;
+                }
+            }
+            p{
+                margin-left: .5rem;
+            }
+
+            @include m.tablet(){
+                flex-direction: column;
+                .icono1,.icono2,.icono3,.icono4,.icono5{
+                    width: 28%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                p{
+                    margin-left: 0rem;
+                }
+            }
+            @include m.desktop(){
+                flex-direction: row;
+                .icono1,.icono2,.icono3,.icono4,.icono5{
+                    width: 22%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                p{
+                    margin-left: .5rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+        @include m.tablet(){
+            flex-direction: row;
+        }
+        @include m.desktop(){
+            flex-direction: row;
+
+        }
+    }
+
+}
+
+
+
+.title-web{
+   display: flex;
+   justify-content:center;
+   flex-wrap: wrap;
+   h2{
+    margin: 1rem;
+   }
+}
+
+.info-web {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   .informacion-web-img{
+       flex: 0 0 calc(100%);
+       @include m.tablet(){
+           flex: 0 0 calc(50%);
+       }
+       img{
+           width: 100%;
+       }
+   }
+
+   .informacion-web{
+       flex: 0 0 calc(100%);
+       h2{
+        margin: 1rem;
+       }
+       p{
+           font-size: 1.1rem;
+           line-height: 1.8rem;
+           text-align:justify;
+           margin: 1rem;
+           font-weight: 500;
+       }
+       .infobtn{
+           margin: 1rem;
+       }
+
+       @include m.tablet(){
+           flex: 0 0 calc(50%);
+           h3{
+               margin-left: 1rem;
+           }
+       }
+   }
+}
+
+
+
+.responsibe{
+   margin-top: 1.5rem;
+   min-height: 24rem;
+   display: flex;
+   background-color: v.$colorSectionResponsive;
+   .contenedor-responsibe{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       .contenido-responsibe{
+           flex: 0 0 calc(100%);
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           h3{
+            margin: 1rem;
+            color: v.$blanco;
+           }
+           p{
+               font-size: 1rem;
+               line-height: 1.5rem;
+               color: v.$blanco;
+               margin: 1rem;
+           }
+           @include m.tablet(){
+               flex: 0 0 calc(50%);
+               p{
+                   margin: 1rem;
+               }
+           }
+           h4{
+               margin: 1rem;
+           }
+           ul{
+               
+               li{
+                   line-height: 1.5rem;
+                   font-size: 1.2rem;
+                   color: v.$blanco;
+               }
+
+           }
+           
+           #lista3 {
+            counter-reset: li; 
+            list-style: none; 
+            *list-style: decimal; 
+            font: 1rem 'Roboto', sans-serif;
+            padding: 0;
+            margin-bottom: 4em;
+            text-shadow: 0 1px 0 rgba(255,255,255,.5);
+            margin: 1rem;
+            }
+        
+            #lista3 ol {
+                margin: 0 0 0 2em; 
+            }
+        
+            #lista3 li{
+                position: relative;
+                display: block;
+                padding: .4em .4em .4em .8em;
+                *padding: .4em;
+                margin: .5em 0 .5em 2.5em;
+                background: #ddd;
+                color: #444;
+                text-decoration: none;
+                transition: all .3s ease-out;   
+            }
+        
+            #lista3 li:hover{
+                background: #eee;
+                cursor: pointer;
+            }   
+        
+            #lista3 li:before{
+                content: counter(li);
+                counter-increment: li;
+                position: absolute; 
+                left: -2.5em;
+                top: 50%;
+                margin-top: -1em;
+                background: v.$blanco;
+                height: 2em;
+                width: 2em;
+                line-height: 2em;
+                text-align: center;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        
+            #lista3 li:after{
+                position: absolute; 
+                content: '';
+                border: .5em solid transparent;
+                left: -1em;
+                top: 50%;
+                margin-top: -.5em;
+                transition: all .3s ease-out;               
+            }
+        
+            #lista3 li:hover:after{
+                left: -.5em;
+                border-left-color:v.$blanco;             
+            }
+        }
+       .img-responsibe{
+           flex: 0 0 calc(100%);
+           .caja-img-responsive{
+               height: 350px;
+               margin: 1rem;
+               img{
+                   width: 100%;
+                   height: 100%;
+               }
+           }
+           
+           @include m.telefono(){
+               .caja-img-responsive{
+                   margin: 4rem;
+                   height: 440px;
+
+               }
+           }
+           @include m.tablet(){
+               flex: 0 0 calc(50%);
+               .caja-img-responsive{
+                   margin-left: 4rem;
+                   margin-right: 4rem;
+                   height: 300px;
+               }
+           }
+           @include m.desktop(){
+               .caja-img-responsive{
+                   margin-left: 5rem;
+                   margin-right: 5rem;
+                   height: 440px;
+               }
+           }
+
+       }
+
+   }
+}
+
+.somos{
+   margin-top: 1rem;
+   margin-top: 1.5rem;
+   line-height: 1.5rem;
+   text-align: justify;
+   span, p, .btnSomos{
+       margin: 1rem;
+   }
+
+}
