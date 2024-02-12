@@ -20,7 +20,7 @@
 
 		public function get_metas(){
 			$result = array();
-			$sql= "SELECT name,id_meta,title,description FROM paginas INNER JOIN meta_tags ON paginas.id_pagina = meta_tags.id_paginafk";
+			$sql= "SELECT name,id_meta,title,tag,description FROM paginas INNER JOIN meta_tags ON paginas.id_pagina = meta_tags.id_paginafk";
 			$ejecutar= $this->con->executeQuery($sql);
 			if( count($ejecutar)>0 ){
 				$result = $ejecutar;

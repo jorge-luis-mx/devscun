@@ -21,8 +21,9 @@
 
     $title = null;
     $description = null;
+    $p_claves = "";
+    
     $metas = $objPages->get_metas();
-   
 
 	if(isset($_GET["route"])){
      
@@ -31,17 +32,25 @@
         
         if ($rutas!=null && count($rutas)<=3) {
 
-            
+            //paginas navegacion o section
             if(isset($rutas[0]) && !isset($rutas[1])){
 
                 if (in_array($rutas[0],$arrayPages)) {
-
+                    //paginas un paramtro no impor si es blog ingresa aqui
                     foreach ($metas as $key => $value) {
 
                         if ($rutas[0]==$value['name']) {
                         
                             $title = $value['title'];
                             $description = $value['description'];
+                            
+				            $palabras_claves = json_decode($value["tag"], true);
+
+                            foreach ($palabras_claves as $key => $item_clave) {
+                                $p_claves .= $item_clave.", ";
+                            }
+				            $p_claves = substr($p_claves, 0, -2);
+
                         }
                     }
 
@@ -52,29 +61,42 @@
                 
             }
             
-
+            //params more one(hay mas de un parametro es el blog)
             if(isset($rutas[1])){
-              
+
                 $categorias = $objBlog->get_categoria();
                 $totalArticulos = $objBlog->mdlMostrarTotalArticulos($tabla, null, null);
                 $totalPaginas = ceil(count($totalArticulos)/5);
 
-                
-
                 if(is_numeric($rutas[1])){
     
-                    
                     foreach ($categorias as $key => $value) {
                         
                         $title =" DevsCUN | ".$value["descripcion_categoria"];
                         $description = $value["descripcion_categoria"];
-    
+                        
+                        //get tag blog para categoria paginacion
+                        if (in_array($rutas[0],$arrayPages)) {
+                            foreach ($metas as $key => $value_) {
+        
+                                if ($rutas[0]==$value_['name']) {
+                                    $title = $value_['title'];
+                                    $description = $value_['description'];
+                                    $p_claves = getTag($value_['tag']);
+
+                                }
+                            }
+        
+                        }
+
+
                         break;
                     }		
                     
                 }else{
                     
                     $rutaCategoria = null;
+                    
 
                     if (!is_numeric($rutas[1])) {
                         
@@ -83,7 +105,7 @@
                         
                             if($rutas[1] == $value["ruta_categoria"]){
                                 $rutaCategoria = $value["ruta_categoria"];
-
+                                $tag = $value['p_claves_categoria'];
                                 break;
                                
                             }
@@ -94,6 +116,7 @@
                             
                             $title = "DevsCUN | ".$value["titulo_categoria"];
                             $description = $value["descripcion_categoria"];
+                            $p_claves = getTag($tag);
 
                         }else{
                             
@@ -106,7 +129,7 @@
                 }
 
             }
-
+            //mas de Dos parametros //blog detalles de un articulo o paginacion de una categoria
             if(isset($rutas[2])){
                 
 
@@ -128,7 +151,7 @@
                         
                             $title ="DevsCUN | ".$value["titulo_articulo"];
                             $description = $value["descripcion_articulo"];
-                            
+                            $p_claves = getTag( $value["p_claves_articulo"]);
                             break;
                         }		
                     
@@ -144,8 +167,20 @@
 
         $title = $metas[0]['title'];
         $description = $metas[0]['description'];
+        $p_claves = getTag($metas[0]["tag"]);
+
     }
 
+    function getTag($metas){
+        $p_claves = null;
+        $palabras_claves = json_decode($metas, true);
+        foreach ($palabras_claves as $key => $item_clave) {
+            $p_claves .= $item_clave.", ";
+        }
+        $p_claves = substr($p_claves, 0, -2);
+        return $p_claves;
+
+    }
 ?>
 <!DOCTYPE html>
 <html lang="es-MX">
@@ -155,7 +190,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?=$title?></title>
     <meta name="description" content="<?=$description?>"/>
-    <meta name="keywords" content="DevsCun, Páginas web a la medida, Paginas web en cancun, Paginas web cancun, Creación de paginas web en cancun, Diseño de paginas web en cancun,Tienda online en cancun"/>
+    <meta name="keywords" content="<?=$p_claves?>"/>
     <meta property="og:site_name" content="DevsCun">
     <meta property="og:title" content="<?=$title?>">
     <meta property="og:description" content="<?=$description?>">
