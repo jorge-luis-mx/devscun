@@ -199,11 +199,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
             });
             let res=await response.json();
             if (res.status==200) {
-               Swal.fire(
-                  'Mensaje enviado correctamente!',
-                  'click en button!',
-                  'success'
-                )
+               Swal.fire({
+                     title: 'Mensaje enviado correctamente!',
+                     text: 'Click en el botón!',
+                     icon: 'success',
+                     confirmButtonText: 'OK',
+                     confirmButtonColor: "#3085d6",
+                  });
                const wereinputs = document.querySelectorAll('.iam-input');
                if(wereinputs != null) {
                    wereinputs.forEach((input) => {

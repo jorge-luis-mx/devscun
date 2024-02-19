@@ -12,20 +12,20 @@ class General {
             foreach ($validations as $input => $value) {
 
                 $postString = (isset($_post[$input]))? $_post[$input] : "";
-                if ($value["required"] == "1") {
+                if ($value["obligatorio"] == "1") {
                     if ($postString == ""){
-                        $errors[$input] = $value["etiquette"] . ", is required.";
+                        $errors[$input] = $value["etiqueta"] . ", es obligatorio.";
                     }
                 }
                 if (!isset($errors[$input])){
-                    switch ($value["validation"]) {
+                    switch ($value["validacion"]) {
                         case 'email':
                             if ($postString!="") {
                                 $stringClean = $this->cleanString($postString);
                                 if (preg_match("/^([a-zA-Z0-9])+([a-zA-Z0-9\.-])*@([a-zA-Z0-9-])+([a-zA-Z0-9\._-]+)+$/", $stringClean)) {
                                     $dataOk[$input] = $stringClean;
                                 } else {
-                                    $errors[$input] = $value["etiquette"] . ", is incorrect";
+                                    $errors[$input] = $value["etiqueta"] . ", is incorrect";
                                 }
                             }
                             break;
@@ -35,7 +35,7 @@ class General {
                                     if (preg_match("/^([0-9])+$/", $item)) {
                                         $dataOk[$input][$k] = $item;
                                     } else {
-                                        $errors[$input] = $value["etiquette"] . ", is incorrect";
+                                        $errors[$input] = $value["etiqueta"] . ", is incorrect";
                                     }
                                 }
                             }else{
@@ -44,7 +44,7 @@ class General {
                                     if (preg_match("/^([0-9])+$/", $stringClean )) {
                                         $dataOk[$input] = $stringClean;
                                     } else {
-                                        $errors[$input] = $value["etiquette"] . ", is incorrect";
+                                        $errors[$input] = $value["etiqueta"] . ", is incorrect";
                                     }
                                 }else{
                                     $dataOk[$input] = "";
@@ -59,7 +59,7 @@ class General {
                                 if (preg_match("/^[a-zA-Z0-9]+$/", $stringClean)) {
                                     $dataOk[$input] = $stringClean;
                                 } else {
-                                    $errors[$input] = $value["etiquette"] . ", is incorrect";
+                                    $errors[$input] = $value["etiqueta"] . ", is incorrect";
                                 }
                             }else{
                                 $dataOk[$input] = "";
@@ -72,7 +72,7 @@ class General {
                                 if (preg_match("/^[A-Za-z]+$/", $stringClean)) {
                                     $dataOk[$input] = $stringClean;
                                 } else {
-                                    $errors[$input] = $value["etiquette"] . ", is incorrect.";
+                                    $errors[$input] = $value["etiqueta"] . ", is incorrect.";
                                 }
                             }else{
                                 $dataOk[$input] = "";
@@ -95,7 +95,7 @@ class General {
                                     if (preg_match("/^[A-Za-z0-9\s]+$/", $stringClean)) {
                                         $dataOk[$input] = $stringClean;
                                     } else {
-                                        $errors[$input] =  $value["etiquette"] . ", is incorrect.";
+                                        $errors[$input] =  $value["etiqueta"] . ", is incorrect.";
                                     }
                                 }else{
                                     $dataOk[$input] = "";

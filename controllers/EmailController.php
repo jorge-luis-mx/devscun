@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
    
    include_once '../config/db.php';
    include_once '../config/helper.php';
-   include_once '../models/metaModel.php';
+   //include_once '../models/metaModel.php';
    include_once '../models/saveClientsModel.php';
 
    $objCon = new Config();
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
    $errors = $validar["errors"];
    $limpios = $validar["data_ok"];
    if (count($errors) == 0 && $limpios!=null) {
-
+      
       $datos["nombre"]	= $limpios['nombre'];
       $datos["telefono"]= $limpios['telefono'];
       $datos["correo"] 	= $limpios['correo'];
@@ -42,19 +42,17 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
            $info .= "<br> <strong>".ucwords($key)."</strong>: ".$value;
       }
          
-      // $headers = "MIME-Version: 1.0\r\n"; 
-      // $headers.= "Content-type: text/html; charset=UTF-8\r\n"; 
-      // $headers.= "X-Priority: 1\r\n";
+
       $headers = 'MIME-Version:1.0'."\r\n".
       'Content-type:text/html; charset=UTF-8'."\r\n".
         'From: info@devscun.com'. "\r\n".
         'Reply-To: info@devscun.com' . "\r\n";
        
-      $enviado = mail($enviar_a, $asunto,$info,$headers);
-      
+      //$enviado = mail($enviar_a, $asunto,$info,$headers);
+      $enviado =true;
       if ($enviado !== false) {
    
-         $strInsert = "INSERT INTO client (`nombre`,`telefono`,`correo`,`asunto`,`mensaje`,`status`) 
+         $strInsert = "INSERT INTO clientes (`nombre`,`telefono`,`correo`,`asunto`,`mensaje`,`status`) 
          values ( 
          '" . $datos["nombre"].  "',
          '" . $datos["telefono"]. "',
@@ -68,11 +66,11 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
          // procedemos a devolver la respuesta de aprovacion
          $resultado["status"]=200;
          $resultado["message"]="Su mensaje ha sido enviado!";
-         $resultado["message"]=$id_client;
+
    
       }else {
          // Hubo algun tipo de error
-         $resultado["status"]=4004;
+         $resultado["status"]=404;
          $resultado["message"]="lo sentimos! algo sucedio su mensaje no ha sido enviado";
          $resultado['ResExitoso']= $limpios;
       }

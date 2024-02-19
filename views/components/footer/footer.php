@@ -36,6 +36,6 @@
     </footer>
     <input type="hidden" id="rutaActual" value="<?php echo base_url.'blog/';?>">
     <script src="<?=base_url?>assets/build/js/menu.min.js"></script>
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
