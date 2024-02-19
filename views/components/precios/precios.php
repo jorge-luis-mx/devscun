@@ -14,14 +14,13 @@
                 </div>
                 <div class="card-col-body">
                     <div class="card-body">
-                        <h4 class="precio"><strong>$5,300 MXN</strong></h4>
-                        <p>Diseño web responsivo</p>
-                        <p>Secciones <strong>hasta 3</strong></p>
-                        <p>Banner o slider</p>
-                        <p>Redes sociales instagram y facebook</p>
-                        <p>Llamada a la acción <strong>Button de WhatsApp y un formulario de contacto</strong></p>
-                        <p>Dominio, Hosting y Certificado SSL sin costo el primer año</p>
-                        <p>Optimizacion para el posicionamiento <strong>SEO & SEM</strong> </p>
+                        <h4 class="precio"><strong>$6,999 MXN</strong></h4>
+                        <p>Diseño web responsivo.</p>
+                        <p>3 Secciones de información.</p>
+                        <p>SEO Optimización para motores de busqueda.</p>
+                        <p>Establecer enlaces en redes sociales, instagram y facebook.</p>
+                        <p>Llamada a la acción <strong>Button de WhatsApp y un formulario de contacto.</strong></p>
+                        <p>Dominio, Hosting y Certificado SSL sin costo el primer año.</p>
                     </div>
                 </div>
             </div>
@@ -31,15 +30,14 @@
                 </div>
                 <div class="card-col-body">
                     <div class="card-body">
-                        <h4 class="precio"><strong>$7,500 MXN</strong></h4>
-                        <p>Diseño web responsivo</p>
-                        <p>Secciones <strong>hasta 5</strong> </p>
-                        <p>Banner o slider</p>
-                        <p>Optimización de la estructura de <strong>URLs</strong></p>
-                        <p>Redes sociales instagram y facebook</p>
+                        <h4 class="precio"><strong>$12,999 MXN</strong></h4>
+                        <p>Diseño web responsivo.</p>
+                        <p>5 Secciones de información.</p>
+                        <p>SEO Optimización para motores de busqueda.</p>
+                        <p>Optimización de la estructura de las URL.</p>
+                        <p>Establecer enlaces en redes sociales, instagram y facebook.</p>
                         <p>Llamada a la acción <strong>Button de WhatsApp y un formulario de contacto</strong></p>
                         <p>Dominio, Hosting y Certificado SSL sin costo el primer año.</p>
-                        <p>Optimizacion para el posicionamiento <strong>SEO & SEM</strong></p>
                     </div>
                 </div>
             </div>
@@ -49,17 +47,15 @@
                 </div>
                 <div class="card-col-body">
                     <div class="card-body">
-                        <h4 class="precio"><strong>$10,760 MXN </strong></h4>
-                        <p>Diseño web responsivo</p>
-                        <p>Secciones <strong>hasta 7</strong></p>
-                        <p>Banner o slider</p>
-                        <p>Optimización de la estructura de <strong>URLs</strong></p>
+                        <h4 class="precio"><strong>$19,999 MXN </strong></h4>
+                        <p>Diseño web responsivo.</p>
+                        <p>7 Secciones de información.</p>
+                        <p>SEO Optimización para motores de busqueda.</p>
+                        <p>Optimización de la estructura de las URL.</p>
                         <p>Pagina web <strong>Autoadministrable</strong></p>
-                        <p>Redes sociales instagram,facebook y twitter</p>
+                        <p>Establecer enlaces en redes sociales, instagram y facebook.</p>
                         <p>Llamada a la acción <strong>Button de WhatsApp y un formulario de contacto</strong></p>
                         <p>Dominio, Hosting y Certificado SSL sin costo el primer año.</p>
-                        <p>Optimizacion para el posicionamiento <strong>SEO & SEM</strong></p>
-                        <p>Gestion de datos Base de datos</p>
                     </div>
                 </div>
             </div>
@@ -69,19 +65,17 @@
                 </div>
                 <div class="card-col-body">
                     <div class="card-body">
-                        <h4 class="precio"><strong>$13,200 MXN</strong></h4>
-                        <p>Diseño web responsivo</p>
+                        <h4 class="precio"><strong>$25,999 MXN</strong></h4>
+                        <p>Diseño web responsivo.</p>
+                        <p>7 Secciones de información.</p>
+                        <p>SEO Optimización para motores de busqueda.</p>
+                        <p>Optimización de la estructura de las URL.</p>
                         <p>Secion de <strong>carrito de compra</strong></p>
                         <p>Pagos con <strong>Paypal</strong></p>
-                        <p>Secciones <strong>hasta 7</strong></p>
-                        <p>Banner o slider</p>
-                        <p>Optimización de la estructura de <strong>URLs</strong></p>
                         <p>Pagina web <strong>Autoadministrable</strong></p>
-                        <p>Redes sociales instagram,facebook y twitter</p>
+                        <p>Establecer enlaces en redes sociales, instagram y facebook.</p>
                         <p>Llamada a la acción <strong>Button de WhatsApp y un formulario de contacto</strong></p>
                         <p>Dominio, Hosting y Certificado SSL sin costo el primer año.</p>
-                        <p>Optimizacion para el posicionamiento <strong>SEO & SEM</strong></p>
-                        <p>Gestion de datos Base de datos</p>
                     </div>
                 </div>
             </div>
