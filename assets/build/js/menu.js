@@ -47,28 +47,20 @@ window.addEventListener('DOMContentLoaded', (event) => {
       
    }
 
-   // const campos = {
-   //    usuario: false,
-   //    nombre: false,
-   //    password: false,
-   //    correo: false,
-   //    telefono: false
-   // }
 
    const inputs = document.querySelectorAll('#contactoForm input');
    if(inputs != null) {
   
-      inputs.forEach((input) => {
+      // inputs.forEach((input) => {
 
-         input.addEventListener('keyup', (e)=>{
-            dealsModule.validarFormulario(e);
-         });
-         input.addEventListener('blur', (e)=>{
-            dealsModule.validarFormulario(e);
-         });
+      //    input.addEventListener('keyup', (e)=>{
+      //       dealsModule.validarFormulario(e);
+      //    });
+      //    input.addEventListener('blur', (e)=>{
+      //       dealsModule.validarFormulario(e);
+      //    });
          
-
-      });
+      // });
    }
 
 
