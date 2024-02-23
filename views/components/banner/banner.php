@@ -2,6 +2,8 @@
 $name=null;
 if(isset($_GET['route'])){
     
+    $rutas = explode("/", $_GET["route"]);
+
     switch ($_GET['route']) {
         case "paginas-web-cancun":
             $name='Páginas Web en Cancún';
@@ -35,6 +37,13 @@ if(isset($_GET['route'])){
             break;
         default:
             $name='Hemos perdido esta pagina';
+    }
+
+    if(isset($rutas[1])){
+        if(is_numeric($rutas[1])){
+            $name='Blog';
+            $title="Blog DevsCun";
+        }
     }
 }
 

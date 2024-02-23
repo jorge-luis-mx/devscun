@@ -3,7 +3,7 @@
     require_once 'config/db.php';
     require_once 'models/pageModel.php';
     require_once 'models/blogModel.php';
-    require_once 'config/route.php';
+  
 
     $objCon = new Config();
     $objPages = new Page($objCon);
