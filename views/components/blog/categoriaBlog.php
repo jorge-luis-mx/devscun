@@ -74,70 +74,17 @@ CONTENIDO CATEGORIA
 				<div>
 
 					<h4>Etiquetas</h4>
-
-					<?php 
-
-						$tags = json_decode($articulos[0]["p_claves_categoria"], true);
-
-					 ?>
-
-					 <?php foreach ($tags as $key => $value): ?>
-
-					 	<!-- <a href="<?php echo $blog["dominio"].preg_replace('/[0-9ñÑáéíóúÁÉÍÓÚ ]/', "_", $value); ?>" class="btn btn-secondary btn-sm m-1"><?php echo $value; ?></a>  -->
-					 	
-					 <?php endforeach ?>							
+					
 										
 				</div>	
 
 				<!-- Artículos Destacados -->
 
-				<!-- <div class="my-4">
-					
-					<h4>Artículos Destacados</h4>
 
-					<?php foreach ($articulosDestacados as $key => $value): 
-
-
-						// $categoria = ControladorBlog::ctrMostrarCategorias("id_categoria", $value["id_cat"]); 
-
-
-					?>
-
-						<div class="d-flex my-3">
-						
-							<div class="w-100 w-xl-50 pr-3 pt-2">
-								
-								<a href="<?php echo $blog["dominio"].$categoria[0]["ruta_categoria"]."/".$value["ruta_articulo"];?>">
-
-									<img src="<?php echo $blog["servidor"].$value["portada_articulo"]; ?>" alt="<?php echo $value["titulo_articulo"];?>" class="img-fluid">
-
-								</a>
-
-							</div>
-
-							<div>
-
-								<a href="<?php echo $blog["dominio"].$categoria[0]["ruta_categoria"]."/".$value["ruta_articulo"];?>" class="text-secondary">
-
-									<p class="small"><?php echo substr($value["descripcion_articulo"],0,-150)."...";?></p>
-
-								</a>
-
-							</div>
-
-						</div>
-						
-					<?php endforeach ?>
-
-				</div> -->
 
 				<!-- PUBLICIDAD -->
 
-				<!-- <?php foreach ($anuncios as $key => $value): ?>
 
-					<?php echo $value["codigo_anuncio"]; ?>
-					
-				<?php endforeach ?> -->
 				
 			</div>
 
