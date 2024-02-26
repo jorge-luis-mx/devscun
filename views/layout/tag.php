@@ -55,8 +55,8 @@
                     }
 
                 }else{
-                    $objController = new pagina404Controller;
-                    $objController->index();
+                    // $objController = new pagina404Controller;
+                    // $objController->index();
                 }
                 
             }

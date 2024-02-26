@@ -48,8 +48,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
         'From: info@devscun.com'. "\r\n".
         'Reply-To: info@devscun.com' . "\r\n";
        
-      //$enviado = mail($enviar_a, $asunto,$info,$headers);
-      $enviado =true;
+      $enviado = mail($enviar_a, $asunto,$info,$headers);
+  
       if ($enviado !== false) {
    
          $strInsert = "INSERT INTO clientes (`nombre`,`telefono`,`correo`,`asunto`,`mensaje`,`status`) 
