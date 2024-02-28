@@ -10,6 +10,10 @@ require_once 'controllers/ContactoController.php';
 require_once 'controllers/EmailController.php';
 require_once 'controllers/Pagina404Controller.php';
 require_once 'controllers/PaginaCancunController.php';
+//blog
+require_once 'controllers/BlogController.php';
+require_once 'controllers/BlogCategoriaController.php';
+require_once 'controllers/blogDetailsController.php';
 // require_once 'autoload.php';
 
 require_once 'config/db.php';

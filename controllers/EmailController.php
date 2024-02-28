@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
       'Content-type:text/html; charset=UTF-8'."\r\n".
         'From: info@devscun.com'. "\r\n".
         'Reply-To: info@devscun.com' . "\r\n";
+        'Cc: jorge06g92@gmail.com' . "\r\n";
        
       $enviado = mail($enviar_a, $asunto,$info,$headers);
   
