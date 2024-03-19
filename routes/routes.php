@@ -31,6 +31,11 @@ if(isset($_GET['route'])){
 				$objController = new portafolioController;
 				$objController->index();
 
+			}else if ($_GET['route']=="diseno-de-paginas-web-ocosingo") {
+
+				$objController = new portafolioController;
+				$objController->index();
+
 			}else if ($_GET['route']=="blog") {
 
 				$objController = new blogController;
@@ -58,6 +63,9 @@ if(isset($_GET['route'])){
 
 		}
 		
+		//diseño web ocosingo chiapas
+		//creadores de paginas web en ocosingo chiapas
+
 		//rutas mas de dos parametros como blog y paginacion
 		if(isset($rutas[1])){
 
