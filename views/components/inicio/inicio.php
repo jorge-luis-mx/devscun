@@ -74,11 +74,22 @@
 </div> 
 
 <div class="contenedor">
-    <div class="somos">
-        <span>¿Por qué confiarnos en tu proyecto?</span>
-        <p>Porque quieres que un grupo de profesionales se dedique a darle la mejor presencia web a tu proyecto, porque quieres alcanzar ciertos objetivos con tu sitio web o porque quieres delegar las estrategias online de tu negocio. Por estas, y otras razones, en <strong>DevsCun</strong> hacemos el trabajo requerido para que tu sitio web sea una herramienta de crecimiento.</p>
+    <div class="sections-info">
+        <div class="somos">
+            <span>¿Por qué confiarnos en tu proyecto?</span>
+            <p>Porque quieres que un grupo de profesionales se dedique a darle la mejor presencia web a tu proyecto, porque quieres alcanzar ciertos objetivos con tu sitio web o porque quieres delegar las estrategias online de tu negocio. Por estas, y otras razones, en <strong>DevsCun</strong> hacemos el trabajo requerido para que tu sitio web sea una herramienta de crecimiento.</p>
+        </div>
+        <div class="img-movil">
+            <div class="caja-img-movil">
+                <img loading="lazy" decoding="async" src="<?=base_url?>assets/img/diseño-web-movil-devscun.webp" title="Diseño de paginas web movil" alt="Diseño de paginas web movil">
+            </div>
+        </div>
     </div>
-    <div>
-        <a href="https://g.page/r/Cc9-lS0n8KATEAI/review"></a>
+</div>
+
+<div class="contenedor">
+    <div class="reviews">
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <div class="elfsight-app-d21f8d60-bca5-468d-9bd7-ad02e246fab1" data-elfsight-app-lazy></div>
     </div>
 </div>
