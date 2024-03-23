@@ -2,7 +2,7 @@
         <div class="appWhatsapp">
             <a href="https://api.whatsapp.com/send?phone=529984085290&text=hola,%20estoy%20interesado%20en%20una%20página%20web" 
                 title="Whatsapp" alt="Whatsapp" target="_blank">
-                <img src="<?=base_url?>assets/img/whatsapp.png" title="imagen de whatsapp" alt="imagen de whatsapp">
+                <img src="<?=base_url?>assets/img/whatsapp.webp" title="imagen de whatsapp" alt="imagen de whatsapp">
             </a>
         </div>
         <div class="contenedor">

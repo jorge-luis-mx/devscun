@@ -9,7 +9,7 @@
    align-items: center;
    background-size: cover;
    background-color: v.$colorFondoSlider;
-   @include m.background-imagen('../../../assets/img/banner-diseño-web.webp');
+   @include m.background-imagen('../../../assets/img/banner-devscun-movil.webp');
    .contenido-hero{
        flex: 1;
        h1{
@@ -26,5 +26,10 @@
            }
        }
    }
+
+    @include m.tablet(){
+
+        @include m.background-imagen('../../../assets/img/banner-diseño-web.webp');
+    }
 
 }
