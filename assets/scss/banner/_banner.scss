@@ -8,10 +8,18 @@
    @include m.gradiente(v.$colorBanner,v.$colorBannerDerecha);
    min-height: 10rem;
    .contenido-banner{
-        h1{
-           color: v.$blanco;
-           margin: 1rem;
-           font-size: 2.5rem;
-        }
+
+      h1{
+         color: v.$blanco;
+         margin: 1rem;
+         font-size: 2rem;
+      }
+
+      @include m.tablet(){
+         h1{
+            font-size: 2.2rem;
+         }
+
+      }
    }
 }
