@@ -6,7 +6,7 @@ if(isset($_GET['route'])){
 
     switch ($_GET['route']) {
         case "paginas-web-cancun":
-            $name='Páginas Web en Cancún';
+            $name='Páginas web en cancún';
             $title="Paginas web o Tienda online en Cancún";
             break;
         case "servicios-de-paginas-web-cancun":

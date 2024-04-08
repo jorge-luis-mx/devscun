@@ -48,7 +48,7 @@ CONTENIDO ARTÍCULO
 			<li class="breadcrumb-item active"><?php echo $articulo[0]["titulo_articulo"]; ?></li>
 
 		</ul>
-		
+
 		<div class="row">
 			
 			<!-- COLUMNA IZQUIERDA -->
@@ -57,11 +57,14 @@ CONTENIDO ARTÍCULO
 				<!-- ARTÍCULO 01 -->
 				<div class="container">
 
-					<div class="d-flex">
+					<div class="">
 					
-						<div class="fechaArticulo"><?php echo $articulo[0]["fecha_articulo"]; ?></div>
+						<div class="fechaArticulo"><?php
+							$fecha_formateada = date('Y-m-d', strtotime(str_replace('.', '/', $articulo[0]["fecha_articulo"])));
+						 	echo $fecha_formateada; 
+						 ?></div>
 
-						<h3 class="tituloArticulo text-right text-muted pl-3 pt-lg-2"><?php echo $articulo[0]["titulo_articulo"]; ?></h3>
+						<h3 class="tituloArticulo  text-muted pl-3 pt-lg-2"><?php echo $articulo[0]["titulo_articulo"]; ?></h3>
 
 					</div>
 					
@@ -95,7 +98,7 @@ CONTENIDO ARTÍCULO
 
 						</div>
 
-						<div class="btn-group">
+						<!-- <div class="btn-group">
 							
 							<button type="button" class="btn border-0 text-white social-share" style="background: #00A6FF" data-share="twitter">
 								
@@ -105,7 +108,7 @@ CONTENIDO ARTÍCULO
 
 							</button>
 
-						</div>
+						</div> -->
 
 					</div>
 

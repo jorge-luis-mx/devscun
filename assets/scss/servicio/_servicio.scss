@@ -15,9 +15,13 @@
       flex-wrap: wrap;
       .contenedor-servicio{
          margin: .6rem;
-         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-         border-radius: 5px;
-
+         border-radius: 10px;
+         border-style: solid;
+         border-color: hsla(221, 15%, 86%, 1);
+         box-shadow: 0 0.25em 0.5em 0 hsla(221, 15%, 86%, 1);
+         border-width: 1px;
+         border: 1px solid #ccc;
+         transition: transform 0.3s ease; /* Transición suave */
         .caja-servicio{
          padding: .5rem;
             h3{
@@ -69,13 +73,17 @@
          }
       }
       .contenedor-servicio:hover{
-         background-color: v.$cardServicioHover;
-         cursor: pointer;
-         color: v.$blanco;
+         /*background-color: v.$cardServicioHover;
+         cursor: pointer;*/
+         /*color: v.$blanco;*/
+         
+         border-style: solid;
+         border-color: hsla(233, 100%, 63%, 1);
          transition: 0.3s;
-         h3{
+         transform: translateY(-10px); /* Mueve hacia arriba 10px */
+        /* h3{
             color: v.$blanco;
-         }
+         }*/
       }
    }
    .more-info-service{

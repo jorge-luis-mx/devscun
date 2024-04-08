@@ -19,8 +19,9 @@ class blogController{
 
 		$tabla = "articulos";
 		$totalArticulos = $objcategoria->mdlMostrarTotalArticulos($tabla, null, null);
-		$totalPaginas = ceil(count($totalArticulos)/5);
 	
+		$totalPaginas = ceil(count($totalArticulos)/5);
+
 		if(isset($rutas[1])){
 
 			if(is_numeric($rutas[1])){
@@ -36,7 +37,7 @@ class blogController{
 				$paginaActual = 1;
 			}
 		}else{
-
+			
 			if(isset($rutas[1]) && is_numeric($rutas[1])){
 
 				$paginaActual = $rutas[1];

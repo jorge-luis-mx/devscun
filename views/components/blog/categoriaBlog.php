@@ -47,7 +47,10 @@ CONTENIDO CATEGORIA
 
 							<a href="<?php echo base_url.$rutas[0].'/'.$value["ruta_categoria"]."/".$value["ruta_articulo"]; ?>" class="float-right">Leer Más</a>
 
-							<div class="fecha"><?php echo $value["fecha_articulo"]; ?></div>
+							<div class="fecha"><?php 
+								$fecha_formateada_articulo = date('Y-m-d', strtotime(str_replace('.', '/', $value["fecha_articulo"])));
+								echo $fecha_formateada_articulo; 
+							?></div>
 
 						</div>
 

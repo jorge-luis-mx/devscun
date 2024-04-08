@@ -3,10 +3,12 @@
 
 .footer{
    border-top: 1px solid darken(v.$gris, 10);
+   background-color: hsla(221, 14%, 96%, 1);
    .contenedor-footer{
         display: flex;
         flex-direction: column;
         padding: 1rem;
+        padding-top: 2rem;
         .menu{
             display: flex;
             flex-direction: column;

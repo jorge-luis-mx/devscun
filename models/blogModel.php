@@ -27,7 +27,7 @@
 
 		public function mdlMostrarConInnerJoin($tabla1, $tabla2, $desde, $cantidad){
 
-			$sql = "SELECT $tabla1.*, $tabla2.*, DATE_FORMAT(fecha_articulo, '%Y-%m-%d h%:%i%:%s') AS fecha_articulo FROM $tabla1 INNER JOIN $tabla2 ON $tabla1.id_categoria = $tabla2.id_cat ORDER BY $tabla2.id_articulo DESC LIMIT $desde, $cantidad";
+			$sql = "SELECT $tabla1.*, $tabla2.*, DATE_FORMAT(fecha_articulo, '%Y-%m-%d h%:%i%:%s') AS fecha_articulo FROM $tabla1 INNER JOIN $tabla2 ON $tabla1.id_categoria = $tabla2.id_cat WHERE $tabla1.id_categoria  IN (2, 4, 5) ORDER BY $tabla2.id_articulo DESC LIMIT $desde, $cantidad";
 			$ejecutar= $this->con->executeQuery($sql);
 			if( count($ejecutar)>0 ){
 					$result = $ejecutar;
@@ -46,7 +46,7 @@
 
 		if($item == null && $valor == null){
 
-			$sql = "SELECT * FROM $tabla";
+			$sql = "SELECT * FROM $tabla WHERE $tabla.id_cat IN (2, 4, 5)";
 			$ejecutar= $this->con->executeQuery($sql);
 			if( count($ejecutar)>0 ){
 				$result = $ejecutar;
