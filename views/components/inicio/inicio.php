@@ -78,6 +78,7 @@
         <div class="somos">
             <span>¿Por qué confiarnos en tu proyecto?</span>
             <p>Porque quieres que un grupo de profesionales se dedique a darle la mejor presencia web a tu proyecto, porque quieres alcanzar ciertos objetivos con tu sitio web o porque quieres delegar las estrategias online de tu negocio. Por estas, y otras razones, en <strong>DevsCun</strong> hacemos el trabajo requerido para que tu sitio web sea una herramienta de crecimiento.</p>
+            <a href="contacto"><button class="btn">Contacto</button></a>
         </div>
         <div class="img-movil">
             <div class="caja-img-movil">

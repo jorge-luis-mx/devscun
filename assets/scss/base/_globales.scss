@@ -81,4 +81,20 @@ h4{
       }
    }
 }
+.btn {
+   padding: 15px 30px;
+   background-color: v.$colorBtn;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   margin-left: .8rem;
+   margin-bottom: 1rem;
+  text-decoration: none;
 
+}
+.btn:hover {
+   background-color: v.$btn-pagina;
+}

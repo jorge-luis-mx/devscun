@@ -81,10 +81,11 @@
                 <li>Con proceso de pago</li>
                 <li>y mas..</li>
             </ul>
+            <img loading="lazy" decoding="async" src="<?=base_url?>assets/img/diseño-devscun-para-aquacaribbeantravel.webp" title="imagen diseño de paginas web en cancun" alt="imagen diseño de paginas web en cancun">
             <p><span><strong>Páginas web estáticas</strong></span></p>
             <p>Son aquellos sitios cuyo contenido permanece inalterado sin importar las acciones que realice el usuario. Estas páginas se caracterizan por ofrecer información fija y no interactuar de manera dinámica con los visitantes. Son ideales para sitios web informativos, páginas de contacto y landing pages sencillas.</p>
             <p><strong>Ventajas:</strong> Su carga es rápida, ya que no requiere procesamiento adicional en el servidor al acceder a ellas, fáciles de desarrollar, ya que los cambios en el contenido suelen realizarse directamente en el código fuente y no requieren bases de datos ni sistemas de gestión de contenido.</p>
-            <p>Dependiendo de la solución que desees, será el precio y tiempo de entrega. Para obtener una cotización, puedes escribirnos a través de nuestra sección de <a href="contacto">contacto</a>.</p>
+            <p>Dependiendo de la solución que desees, será el precio y tiempo de entrega. Para obtener una cotización, puedes escribirnos a través de nuestra sección de <a href="contacto"><button class="btn">Contacto</button></a></p>
         </div>
     </div>
 </div>
