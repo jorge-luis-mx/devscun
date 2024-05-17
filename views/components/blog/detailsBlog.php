@@ -29,7 +29,7 @@ CONTENIDO ARTÍCULO
 
 		<!-- BREADCRUMB -->
 
-		<a href="<?php echo base_url. $articulo[0]["ruta_categoria"]; ?>">
+		<!-- <a href="<?php echo base_url. $articulo[0]["ruta_categoria"]; ?>">
 			
 			<button class="d-block d-sm-none btn btn-info btn-sm mb-2">
 			
@@ -37,7 +37,7 @@ CONTENIDO ARTÍCULO
 
 			</button>
 
-		</a>
+		</a> -->
 
 		<ul class="breadcrumb bg-white p-0 mb-2 mb-md-4 breadArticulo">
 
@@ -60,8 +60,12 @@ CONTENIDO ARTÍCULO
 					<div class="">
 					
 						<div class="fechaArticulo"><?php
-							$fecha_formateada = date('Y-m-d', strtotime(str_replace('.', '/', $articulo[0]["fecha_articulo"])));
-						 	echo $fecha_formateada; 
+							$fecha_original = $articulo[0]["fecha_articulo"]; 
+							$fecha_formateada = date('Y-m-d', DateTime::createFromFormat('d.m.Y', $fecha_original)->getTimestamp());
+							echo $fecha_formateada; 
+						
+							// $fecha_formateada = date('Y-m-d', strtotime(str_replace('.', '/', $articulo[0]["fecha_articulo"])));
+						 	
 						 ?></div>
 
 						<h3 class="tituloArticulo  text-muted pl-3 pt-lg-2"><?php echo $articulo[0]["titulo_articulo"]; ?></h3>

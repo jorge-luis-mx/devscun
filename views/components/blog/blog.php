@@ -13,15 +13,17 @@ GRID DE CATEGORÍAS
 
 			<div class="d-flex flex-column columna1">
 			
-				<!-- <figure class="p-2 photo1" vinculo="<?php echo base_url.$rutas[0].'/'.$categorias[0]["ruta_categoria"] ?>" style="background:url(<?php echo base_url.server.$categorias[0]["img_categoria"] ?>)">
-					
-					<p class="text-uppercase p-1 p-md-3 p-xl-4"><?php echo $categorias[0]["descripcion_categoria"] ?></p>
 
-				</figure> -->
 
 				<figure class="p-2 photo2" vinculo="<?php echo base_url.$rutas[0].'/'.$categorias[4]["ruta_categoria"] ?>" style="background:url(<?php echo base_url.server.$categorias[4]["img_categoria"] ?>)">
 					
 					<p class="text-uppercase p-1 p-md-3 p-xl-4"><?php echo $categorias[4]["descripcion_categoria"] ?></p>
+
+				</figure>
+
+				<figure class="p-2 photo1" vinculo="<?php echo base_url.$rutas[0].'/'.$categorias[0]["ruta_categoria"] ?>" style="background:url(<?php echo base_url.server.$categorias[0]["img_categoria"] ?>)">
+					
+					<p class="text-uppercase p-1 p-md-3 p-xl-4"><?php echo $categorias[0]["descripcion_categoria"] ?></p>
 
 				</figure>
 
@@ -80,7 +82,7 @@ CONTENIDO INICIO
 
 			<div class="col-12 col-md-8 col-lg-9 p-0 pr-lg-5">
 
-				<?php  $array = [2,4,5];?>
+				<?php  $array = [1,2,4,5];?>
 				<?php foreach ($articulos as $key => $value): ?>
 				
 
