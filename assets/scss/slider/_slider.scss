@@ -10,19 +10,90 @@
    background-size: cover;
    background-color: v.$colorFondoSlider;
    @include m.background-imagen('../../../assets/img/banner-devscun-movil.webp');
+
+    .contenido-hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .info-devscun {
+        flex: 2; /* Aumenta el tamaño relativo de .info-devscun */
+        padding-right: 20px;
+    }
+
+    .container-promotion {
+        display: none;
+        flex: 1;
+        padding-left: 20px;
+        max-width: 500px; /* Limita el tamaño del contenedor de la oferta */
+    }
+
+    .offer-container {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .offer-header h2 {
+        font-size: 24px;
+        color: #2d4e6d;
+        margin-bottom: 10px;
+    }
+
+    .offer-header p {
+        font-size: 16px;
+        color: #6c757d;
+    }
+
+    .offer-details {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #444;
+    }
+
+    .offer-details .timer {
+        font-weight: bold;
+        color: #e74c3c;
+    }
+
+    .cta-button {
+        background-color: #2d4e6d;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+        background-color: #1f3655;
+    }
+
+
    .contenido-hero{
        flex: 1;
        h1{
-            margin: 1rem;
             color: v.$blanco;
+            line-height: 2.5rem;
         }
-        h2{
-            color: v.$blanco;
-            margin: 1rem;
+        p{
+
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            text-align:justify;
+
+            font-weight: 500;
         }
        @include m.tablet(){
            h1{
-               margin: 1rem;
+            
            }
        }
    }
@@ -30,6 +101,9 @@
     @include m.tablet(){
 
         @include m.background-imagen('../../../assets/img/banner-diseño-web.webp');
+        .container-promotion {
+            display: block;
+        }
     }
 
 }

@@ -82,17 +82,21 @@ h4{
    }
 }
 .btn {
-   padding: 15px 30px;
+  
    background-color: v.$colorBtn;
    color: white;
-   border: none;
-   border-radius: 5px;
+   padding: 15px 30px;
    font-size: 18px;
+   border-radius: 5px;
+   text-decoration: none;
+   display: inline-block;
+   text-align: center;
+   transition: background-color 0.3s;
+   margin-top: 10px; /* Margen superior */
+   margin-bottom: 10px; /* Margen inferior */
    cursor: pointer;
    transition: background-color 0.3s ease;
    margin-left: .8rem;
-   margin-bottom: 1rem;
-  text-decoration: none;
 
 }
 .btn:hover {

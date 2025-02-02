@@ -85,7 +85,8 @@
             <p><span><strong>Páginas web estáticas</strong></span></p>
             <p>Son aquellos sitios cuyo contenido permanece inalterado sin importar las acciones que realice el usuario. Estas páginas se caracterizan por ofrecer información fija y no interactuar de manera dinámica con los visitantes. Son ideales para sitios web informativos, páginas de contacto y landing pages sencillas.</p>
             <p><strong>Ventajas:</strong> Su carga es rápida, ya que no requiere procesamiento adicional en el servidor al acceder a ellas, fáciles de desarrollar, ya que los cambios en el contenido suelen realizarse directamente en el código fuente y no requieren bases de datos ni sistemas de gestión de contenido.</p>
-            <p>Dependiendo de la solución que desees, será el precio y tiempo de entrega. Para obtener una cotización, puedes escribirnos a través de nuestra sección de <a href="contacto"><button class="btn">Contacto</button></a></p>
+            <p>Dependiendo de la solución que desees, será el precio y tiempo de entrega. Para obtener una cotización, puedes escribirnos a través de nuestra sección de Contacto</p>
+            <a href="contacto" class="btn">Contáctanos</a>
         </div>
     </div>
 </div>

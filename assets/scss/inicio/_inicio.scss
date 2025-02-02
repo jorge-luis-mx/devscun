@@ -137,6 +137,7 @@
                line-height: 1.5rem;
                color: v.$blanco;
                margin: 1rem;
+               text-align:justify;
            }
            @include m.tablet(){
                flex: 0 0 calc(50%);
@@ -272,6 +273,7 @@
         text-align: justify;
         span, p, .btnSomos{
             margin: 1rem;
+            text-align: justify;
         }
 
     }

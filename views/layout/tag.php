@@ -276,7 +276,65 @@
     gtag('js', new Date());
     gtag('config', 'G-9Y3JXMPHFH');
     </script>
-
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Agencia de Diseño Web",
+      "url": "https://devscun.com",
+      "logo": "https://www.devscun.com/assets/img/logo-devscun.png",
+      "image": "https://www.devscun.com/assets/img/logo-devscun.png",
+      "description": "Somos expertos en diseño y desarrollo de páginas web modernas y optimizadas para SEO.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "SM 70 M 8 LT 24 CALLE 22",
+        "addressLocality": "Cancún",
+        "addressRegion": "Q.R",
+        "postalCode": "77500",
+        "addressCountry": "MX"
+      },
+      "telephone": "+52 998 408 5290",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "reviewCount": "36",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Diseño y Desarrollo de Páginas Web"
+        }
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Hector Valencia"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Rápidos en entrega, atención excepcional, sugerencias útiles y una página web perfecta. 10/10, totalmente recomendados."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Charlie Charlie"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Lo recomiendo, un diseño de excelente calidad, además de funcional justamente para lo que necesitaba. Rápidos, amables y buena atención."
+        }
+      ],
+      "priceRange": "$$"
+    }
+    </script>
 </head>
 
 <body>
