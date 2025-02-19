@@ -23,12 +23,17 @@
                 margin-bottom: .5rem;
             }
             .enlace{
-                font-size: .9rem;
-                color: v.$negro;
-                text-decoration: none;
-                font-family: v.$fuente_principal;
-                font-weight: 300;
-                padding: 1rem 0rem 1rem 0rem;
+                display: flex;
+                align-items: center;
+
+                span{
+                    color: v.$negro;
+                    text-decoration: none;
+                    font-family: v.$fuente_principal;
+                    font-weight: 300;
+                    margin-left: 5px;
+                }
+               
             }
         }
 

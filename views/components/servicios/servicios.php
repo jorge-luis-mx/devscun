@@ -48,7 +48,7 @@
                     <div class="item-icono">
                         <div class="caja-icono">
                             <div class="icono">
-                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-contenido-web.png" alt="imagen  Seo & Sem">
+                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-seo.png" alt="imagen  Seo & Sem">
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                     <div class="item-icono">
                         <div class="caja-icono">
                             <div class="icono">
-                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-seo.png" alt="imagen Creación de contenido web">
+                                <img src="<?=base_url?>assets/img/iconos-devscun/icono-contenido-web.png" alt="imagen Creación de contenido web">
                             </div>
                         </div>
                     </div>

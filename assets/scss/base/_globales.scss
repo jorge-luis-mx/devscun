@@ -40,13 +40,7 @@ h4{
    margin: 0 auto;
 }
 
-.oculto{
-   display: none;
-}
-.mostrar{
-   display: block;
-   color: v.$blanco;
-}
+
 .centrado{
    text-align: center;
 }
@@ -83,7 +77,7 @@ h4{
 }
 .btn {
   
-   background-color: v.$colorBtn;
+   background-color: #15297c;
    color: white;
    padding: 15px 30px;
    font-size: 18px;
@@ -100,5 +94,5 @@ h4{
 
 }
 .btn:hover {
-   background-color: v.$btn-pagina;
+   background-color: #1e44ff;
 }

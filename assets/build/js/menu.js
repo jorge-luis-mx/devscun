@@ -14,20 +14,21 @@ window.addEventListener('DOMContentLoaded', (event) => {
    const buttonContinue = document.getElementById('submitContact');
    if(buttonContinue != null) {
        buttonContinue.addEventListener('click', (e) => {
-         
          dealsModule.contactSubmit(path,e);
        })
    }
    
    // Input keypress
-   const wereinputs = document.querySelectorAll('.iam-input');
-   if(wereinputs != null) {
-       wereinputs.forEach((input) => {
-           input.addEventListener('keypress', (e) => {
-            dealsModule.removeError(e);
-           });
-       });
-   }
+
+   const wereinputs = document.querySelectorAll('.form-control'); // Asegura que seleccionas los inputs correctos
+
+if (wereinputs) {
+    wereinputs.forEach((input) => {
+        input.addEventListener('keypress', (e) => {
+         dealsModule.removeError(e.target); // Pasa el input que activó el evento
+        });
+    });
+}
 
    // Is numeric 
    const numericInputs = document.querySelectorAll('.justnumeric');
@@ -48,20 +49,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
    }
 
 
-   const inputs = document.querySelectorAll('#contactoForm input');
-   if(inputs != null) {
+   // const inputs = document.querySelectorAll('#contactoForm input');
+   // if(inputs != null) {
   
-      // inputs.forEach((input) => {
 
-      //    input.addEventListener('keyup', (e)=>{
-      //       dealsModule.validarFormulario(e);
-      //    });
-      //    input.addEventListener('blur', (e)=>{
-      //       dealsModule.validarFormulario(e);
-      //    });
-         
-      // });
-   }
+   // }
 
 
 
@@ -142,55 +134,45 @@ window.addEventListener('DOMContentLoaded', (event) => {
          e.preventDefault();
          
          const contacto = document.getElementById('contactoForm');
+
          const engine = new FormData(contacto);
- 
-         const validate = {
-            nombre : engine.get('nombre'),
-            telefono : engine.get('telefono'),
-            correo : engine.get('correo'),
-            asunto : engine.get('asunto'),
-            mensaje : engine.get('mensaje')
-         };
 
-
-         if(validate.nombre == null || validate.nombre == 0 || /^\s+$/.test(validate.nombre)) {
-             this.errorActive('nombre');
-             return false;
+         const fields = ['asunto', 'mensaje', 'nombre', 'empresa', 'correo', 'telefono'];
+         const optionalFields = ['empresa']; // Campos que no son obligatorios
+         const validate = {};
+         
+         // Obtener y limpiar valores del formulario sin usar "?." (encadenamiento opcional)
+         for (const field of fields) {
+             let value = engine.get(field);
+             validate[field] = value ? value.trim() : ''; // Limpiar y asignar
          }
-         if(validate.telefono == null || validate.telefono == 0 || /^\s+$/.test(validate.telefono)) {
-            this.errorActive('telefono');
-            return false;
+         
+         // Expresiones regulares para validar
+         const emailRegex = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;
+         const phoneRegex = /^\d{10,15}$/; // Acepta entre 10 y 15 dígitos numéricos
+         
+         // Validación general para todos los campos y validación específica (correo y teléfono) en un solo recorrido
+         for (const [key, value] of Object.entries(validate)) {
+             // Si el campo no es obligatorio y está vacío, lo omitimos
+             if (!optionalFields.includes(key) && !value.length) { 
+                 this.errorActive(key, 'Este campo es obligatorio');
+                 return false;
+             }
+         
+             // Validación específica para el correo
+             if (key === 'correo' && value.length && !emailRegex.test(value)) {
+                 this.errorActive('correo', 'Por favor, ingresa un correo válido');
+                 return false;
+             }
+         
+             // Validación específica para el teléfono
+             if (key === 'telefono' && value.length && !phoneRegex.test(value)) {
+                 this.errorActive('telefono', 'El teléfono debe tener entre 10 y 15 dígitos');
+                 return false;
+             }
          }
-         if (!(/\w+([-+.']\w+)*@\w+([-.]\w+)/.test(validate.correo))) {
-             this.errorActive('correo');
-             return false;
-         }
- 
-         // if(validate.pais == null || validate.pais == 0 || /^\s+$/.test(validate.pais)) {
-         //    this.errorActive('pais');
-         //    return false;
-         // }
-
-         // if(validate.estado == null || validate.estado == 0 || /^\s+$/.test(validate.estado)) {
-         //    this.errorActive('estado');
-         //    return false;
-         // } 
-
-         // if(validate.ciudad == null || validate.ciudad == 0 || /^\s+$/.test(validate.ciudad)) {
-         //    this.errorActive('ciudad');
-         //    return false;
-         // }
-
-         if(validate.asunto == null || validate.asunto == 0 || /^\s+$/.test(validate.asunto)) {
-            this.errorActive('asunto');
-            return false;
-         }
-
-         if(validate.mensaje == null || validate.mensaje == 0 || /^\s+$/.test(validate.mensaje)) {
-            console.log(validate.mensaje);
-             this.errorActive('mensaje');
-             return false;
-         }
+         
+         
 
          try {
             const response = await fetch('controllers/EmailController.php',{
@@ -206,12 +188,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
                      confirmButtonText: 'OK',
                      confirmButtonColor: "#3085d6",
                   });
-               const wereinputs = document.querySelectorAll('.iam-input');
-               if(wereinputs != null) {
-                   wereinputs.forEach((input) => {
-                       input.value = "";
-                   });
-               }
+               contacto.reset();
+               // const wereinputs = document.querySelectorAll('.iam-input');
+               // if(wereinputs != null) {
+               //     wereinputs.forEach((input) => {
+               //         input.value = "";
+               //     });
+               // }
 
             }
          } catch (e) {
@@ -220,21 +203,21 @@ window.addEventListener('DOMContentLoaded', (event) => {
           
           
       },
-      errorActive: function(idAttr) {
+      errorActive: function(idAttr, message) {
 
          const input = document.getElementById(`${idAttr}`);
-         const error = input.nextElementSibling;
+         const error =  input.closest('.input-group').querySelector('.error-message');
+       
          if (error!=null) {
-            error.classList.remove('oculto');
-            error.classList.add('mostrar');
+            error.textContent = message;
+            error.style.display = 'block'; 
             input.focus();
          }
      },
-      removeError: function(el) {
-         const error = el.target.nextElementSibling;
-         if(error.classList.contains('mostrar')) {
-            error.classList.remove('mostrar');
-            error.classList.add('oculto');
+      removeError: function(input) {
+         const error =  input.closest('.input-group').querySelector('.error-message');
+         if (error) {
+             error.style.display = 'none'; // Oculta el mensaje de error
          }
       },
       justNumeric: function(e) {
@@ -349,7 +332,7 @@ PAGINACIÓN
 =============================================*/
 
 var totalPaginas = Number($(".pagination").attr("totalPaginas"));
-console.log(totalPaginas);
+
 var paginaActual = Number($(".pagination").attr("paginaActual"));
 var rutaActual = $("#rutaActual").val();
 var rutaPagina = $(".pagination").attr("rutaPagina");

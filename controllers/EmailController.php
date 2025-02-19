@@ -8,13 +8,13 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
 
    $objCon = new Config();
 
-   $objGeneral=new General($objCon);
-   $objClient=new Save($objCon);
+   $objGeneral = new General($objCon);
+   $objClient = new Save($objCon);
 
    $validacion["nombre"] = array("etiqueta" => "nombre", "validacion" => "letras_espacios", "obligatorio" => "1");
    $validacion["telefono"] = array("etiqueta" => "telefono", "validacion" => "numeros", "obligatorio" => "1");
    $validacion["correo"] = array("etiqueta" => "correo", "validacion" => "email", "obligatorio" => "1");
-   // $validacion["pais"] = array("etiqueta" => "pais", "validacion" => "letras_espacios", "obligatorio" => "1");
+   $validacion["empresa"] = array("etiqueta" => "empresa", "validacion" => "letras_espacios", "obligatorio" => "");
    // $validacion["estado"   ] = array("etiqueta" =>"estado","validacion" => "letras_espacios", "obligatorio" => "" );
    // $validacion["ciudad"   ] = array("etiqueta" =>"ciudad","validacion" => "letras_espacios", "obligatorio" => "1" );
    $validacion["asunto"] = array("etiqueta" => "asunto", "validacion" => "letras_numeros_espacios", "obligatorio" => "1");
@@ -23,8 +23,10 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
 
    $errors = $validar["errors"];
    $limpios = $validar["data_ok"];
+
+ 
    if (count($errors) == 0 && $limpios!=null) {
-      
+      $datos["empresa"]	= $limpios['empresa'];
       $datos["nombre"]	= $limpios['nombre'];
       $datos["telefono"]= $limpios['telefono'];
       $datos["correo"] 	= $limpios['correo'];

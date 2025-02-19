@@ -95,12 +95,12 @@
 <div class="contenedor">
     <div class="sections-info">
         <div class="somos">
-            <span>¿Por qué confiar en nosotros para tu proyecto?</span>
+            <h4><span>¿Por qué confiar en nosotros para tu proyecto?</span></h4>
             <p>
                 Si buscas un equipo de <strong>profesionales en desarrollo web</strong> que impulse la presencia digital de tu negocio, en <strong>DevsCun</strong> nos encargamos de transformar tu visión en un sitio web optimizado y efectivo.  
                 Creamos soluciones estratégicas para que tu página web no solo luzca increíble, sino que también te ayude a alcanzar tus objetivos comerciales.  
             </p>
-            <a href="contacto" class="btn">Contáctanos</a>
+            <!-- <a href="contacto" class="btn">Contáctanos</a> -->
         </div>
         <div class="img-movil">
             <div class="caja-img-movil">

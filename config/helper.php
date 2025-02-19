@@ -92,7 +92,7 @@ class General {
                         case 'letras_numeros_espacios':
                                 if ($postString!="") {
                                     $stringClean = $this->cleanString($postString);
-                                    if (preg_match("/^[A-Za-z0-9\s]+$/", $stringClean)) {
+                                    if (preg_match("/^[A-Za-z0-9ñÑáéíóúÁÉÍÓÚ, ]+$/u", $stringClean)) {
                                         $dataOk[$input] = $stringClean;
                                     } else {
                                         $errors[$input] =  $value["etiqueta"] . ", is incorrect.";

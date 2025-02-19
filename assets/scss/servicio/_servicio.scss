@@ -45,7 +45,7 @@
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  background-color: v.$iconoServicio;
+                  background-color: #6398ff;
                   width: 90px;
                   height: 90px;
                   border-radius: 100%;
@@ -73,12 +73,9 @@
          }
       }
       .contenedor-servicio:hover{
-         /*background-color: v.$cardServicioHover;
-         cursor: pointer;*/
-         /*color: v.$blanco;*/
-         
+
          border-style: solid;
-         border-color: hsla(233, 100%, 63%, 1);
+         border-color: #1e44ff;
          transition: 0.3s;
          transform: translateY(-10px); /* Mueve hacia arriba 10px */
         /* h3{
@@ -102,6 +99,9 @@
       }
       p{
          line-height: 1.8rem;
+      }
+      .btn{
+         margin-left: 0rem
       }
    }
 

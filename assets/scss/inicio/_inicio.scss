@@ -4,7 +4,8 @@
 .barra{
     min-height: 6rem;
     padding: 1rem;
-    @include m.gradiente(v.$colorMenuServicios,v.$colorMenuServicoSegundo);
+    //@include m.gradiente(v.$colorMenuServicios,v.$colorMenuServicoSegundo);
+    background: v.$colorPrimario;
     color: v.$blanco;
    .iconos{
        display: flex;
@@ -128,14 +129,15 @@
            display: flex;
            flex-direction: column;
            justify-content: center;
+           
            h3{
             margin: 1rem;
-            color: v.$blanco;
+            color: #0f1b57;
            }
            p{
                font-size: 1rem;
                line-height: 1.5rem;
-               color: v.$blanco;
+               color: #0f1b57;
                margin: 1rem;
                text-align:justify;
            }
@@ -153,20 +155,20 @@
                li{
                    line-height: 1.5rem;
                    font-size: 1.2rem;
-                   color: v.$blanco;
+                   color: #0f1b57;
                }
 
            }
            
            #lista3 {
-            counter-reset: li; 
-            list-style: none; 
-            *list-style: decimal; 
-            font: 1rem 'Roboto', sans-serif;
-            padding: 0;
-            margin-bottom: 4em;
-            text-shadow: 0 1px 0 rgba(255,255,255,.5);
-            margin: 1rem;
+                counter-reset: li; 
+                list-style: none; 
+                *list-style: decimal; 
+                font: 1rem 'Roboto', sans-serif;
+                padding: 0;
+                margin-bottom: 4em;
+                text-shadow: 0 1px 0 rgba(255,255,255,.5);
+                margin: 1rem;
             }
         
             #lista3 ol {
@@ -179,14 +181,15 @@
                 padding: .4em .4em .4em .8em;
                 *padding: .4em;
                 margin: .5em 0 .5em 2.5em;
-                background: #ddd;
-                color: #444;
+                background: #8fc0ff;
+                color: #0f1b57;
                 text-decoration: none;
                 transition: all .3s ease-out;   
             }
         
             #lista3 li:hover{
-                background: #eee;
+                background: #0f1b57;
+                color: white;
                 cursor: pointer;
             }   
         
@@ -197,7 +200,7 @@
                 left: -2.5em;
                 top: 50%;
                 margin-top: -1em;
-                background: v.$blanco;
+                background: #8fc0ff;
                 height: 2em;
                 width: 2em;
                 line-height: 2em;
@@ -271,10 +274,10 @@
         margin-top: 1.5rem;
         line-height: 1.5rem;
         text-align: justify;
-        span, p, .btnSomos{
-            margin: 1rem;
-            text-align: justify;
+        h4{
+            color: #373737;
         }
+
 
     }
     .img-movil{
