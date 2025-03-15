@@ -17,22 +17,39 @@
    .logo{
        padding: 1.4rem 0;
    }
-}
-
-.menu-link{
-   @include m.tablet(){
-       margin-right: 20px;
+   .icon-menu{
+        .btn-menu{
+            display: flex;
+            margin-right: 15px;
+        }
    }
 }
 .menu-link ul{
-   list-style: none;
-}
-.menu-link ul li{
-   @include m.tablet(){
-       display: inline-block;
-   }
+    list-style: none;
+ }
 
+@include m.tablet(){
+    .header{
+        .icon-menu{
+            .btn-menu{
+                display: none;
+               
+            }
+       }
+    }
+
+    .menu-link{
+        margin-right: 20px;
+     }
+     
+    .menu-link ul li{
+        display: inline-block;
+     
+    }
 }
+
+
+
 .menu-link ul li a{
    @include m.desktop(){
        font-size: 1.3em;
@@ -56,15 +73,7 @@
    cursor: pointer;
 }
 
-.icon-menu .btn-menu{
-   @include m.tablet(){
-       display: none;
-   }
-   text-decoration: none;
-   color: v.$negro;
-   font-size: 30px;
-   margin-right: 15px;
-}
+
 
 @media (max-width: 767px) {
    .menu-link{

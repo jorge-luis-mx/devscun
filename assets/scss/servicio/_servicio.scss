@@ -78,13 +78,16 @@
          border-color: #1e44ff;
          transition: 0.3s;
          transform: translateY(-10px); /* Mueve hacia arriba 10px */
-        /* h3{
-            color: v.$blanco;
-         }*/
+
       }
    }
    .more-info-service{
       padding: .5rem;
+      h4{
+         span{
+            color: #373737;
+         }
+      }
       ul{
          padding-left: 1rem;
          margin: 0;
@@ -100,6 +103,7 @@
       p{
          line-height: 1.8rem;
       }
+
       .btn{
          margin-left: 0rem
       }

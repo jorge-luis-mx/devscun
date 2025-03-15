@@ -20,20 +20,21 @@
                 font-family: v.$fuente_principal;
                 color: v.$negro;
                 text-decoration: none;
-                margin-bottom: .5rem;
+                margin-bottom: 10px;
             }
             .enlace{
+
                 display: flex;
                 align-items: center;
-
+                color: v.$negro;
+                text-decoration: none;
+                font-family: v.$fuente_principal;
+                font-weight: 300;
+                margin-bottom: 15px;
+                
                 span{
-                    color: v.$negro;
-                    text-decoration: none;
-                    font-family: v.$fuente_principal;
-                    font-weight: 300;
                     margin-left: 5px;
                 }
-               
             }
         }
 
@@ -47,13 +48,25 @@
                 flex-direction: column;
                 margin-bottom: 1rem;
                 flex: 1;
+                .principal{
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    font-family: v.$fuente_principal;
+                    color: v.$negro;
+                    text-decoration: none;
+                    margin-bottom: 5px;
+                }
                 .enlace{
-                    font-size: .9rem;
+                    font-size: 1rem;
                     color: v.$negro;
                     text-decoration: none;
                     font-family: v.$fuente_principal;
                     font-weight: 300;
                     padding: .5rem 0rem .5rem 0rem;
+                    margin-bottom: 0px;
+                    span{
+                        margin-left: 5px;
+                    }
                 }
             }
 

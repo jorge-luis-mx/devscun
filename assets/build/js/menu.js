@@ -5,6 +5,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
    let path = localObj.protocol + "//" + localObj.host + "/"+ contextPath;
 
    const menuClick = document.getElementById('btn-menu');
+   // Aseguramos que inicialmente solo se muestra el ícono de hamburguesa
+   var iconAmburger = document.querySelector(".icon-amburger");
+   var iconClose = document.querySelector(".icon-close");
+
+   // Inicialmente solo el ícono de hamburguesa debe ser visible
+   iconAmburger.style.display = "block";
+   iconClose.style.display = "none";
+
    if(menuClick != null) {
        menuClick.addEventListener('click', (e) => {
          dealsModule.showMenu(e);
@@ -60,25 +68,49 @@ if (wereinputs) {
    const dealsModule = {
 
       showMenu: function(e) {
-         var btn=document.querySelector(".btn-menu span");
-         //realizamos una condicion donde comparamos la clase obtenida es igual igual
-         if (btn.getAttribute('class')=='fas fa-bars') {
-         //removemos la clase actual y agregamos una nueva clase
-         btn.classList.remove('fas', 'fa-bars');
-         btn.classList.add('fas','fa-times');
-         //nuevamente hacemos queryselector para obtenemos la clase 
-         var menu=document.querySelector(".menu-link");
-         //mostramos la clase csss y quitar si ya existe
-         menu.classList.add("mostrarMenuMovil");
-         menu.classList.remove('quitarMenuMovil');
-         }else{
-         //removemos la clase actual y agregamos una nueva clase
-         btn.classList.remove('fas','fa-times');
-         btn.classList.add('fas', 'fa-bars');
-         var menu=document.querySelector(".menu-link");
-         menu.classList.add("quitarMenuMovil");
-         menu.classList.remove('mostrarMenuMovil');
+         // var btn=document.querySelector(".btn-menu span");
+         // //realizamos una condicion donde comparamos la clase obtenida es igual igual
+         // if (btn.getAttribute('class')=='fas fa-bars') {
+         // //removemos la clase actual y agregamos una nueva clase
+         // btn.classList.remove('fas', 'fa-bars');
+         // btn.classList.add('fas','fa-times');
+         // //nuevamente hacemos queryselector para obtenemos la clase 
+         // var menu=document.querySelector(".menu-link");
+         // //mostramos la clase csss y quitar si ya existe
+         // menu.classList.add("mostrarMenuMovil");
+         // menu.classList.remove('quitarMenuMovil');
+         // }else{
+         // //removemos la clase actual y agregamos una nueva clase
+         // btn.classList.remove('fas','fa-times');
+         // btn.classList.add('fas', 'fa-bars');
+         // var menu=document.querySelector(".menu-link");
+         // menu.classList.add("quitarMenuMovil");
+         // menu.classList.remove('mostrarMenuMovil');
+         // }
+         var iconAmburger = document.querySelector(".icon-amburger");
+         var iconClose = document.querySelector(".icon-close");
+     
+         // Si el ícono de hamburgesa está visible
+         if (iconAmburger.style.display !== "none") {
+             // Ocultamos el ícono de hamburgesa y mostramos el ícono de cerrar
+             iconAmburger.style.display = "none";
+             iconClose.style.display = "block";
+     
+             // Mostrar el menú
+             var menu = document.querySelector(".menu-link");
+             menu.classList.add("mostrarMenuMovil");
+             menu.classList.remove("quitarMenuMovil");
+         } else {
+             // Mostramos el ícono de hamburgesa y ocultamos el ícono de cerrar
+             iconAmburger.style.display = "block";
+             iconClose.style.display = "none";
+     
+             // Ocultar el menú
+             var menu = document.querySelector(".menu-link");
+             menu.classList.add("quitarMenuMovil");
+             menu.classList.remove("mostrarMenuMovil");
          }
+
       },
 
       validarFormulario:function(e){

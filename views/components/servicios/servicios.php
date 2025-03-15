@@ -71,6 +71,7 @@
             </div>
         </div>
         <div class="more-info-service">
+            <h4><span>Creamos la Web Perfecta para tu Proyecto, a tu Medida</span></h4>
             <p>Ya sea que tengas una idea de lo que deseas plasmar en tu sitio web, o que prefieras dejarlo en nuestras manos, construimos la web adecuada para tu proyecto.</p>
             <p>Ten en cuenta que quien conoce mejor de su negocio eres tú, por lo que estaremos trabajando conjuntamente y de cerca contigo para que el producto final represente sus valores.</p>
             <p>Comunmente, una web caerá en alguna de las siguientes categorías:</p>

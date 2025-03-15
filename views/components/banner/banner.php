@@ -15,16 +15,16 @@ if(isset($_GET['route'])){
             $title="Sevicios de paginas web o tienda online en Cancún";
             break;
         case "precios-de-paginas-web-cancun":
-            $name='Precios de paginas web';
-            $title="Precios de paginas web o tienda online en Cancún";
+            $name='Precios y Costos de  Desarrollo Web en Cancún';
+            $title="Costos de Diseño y Desarrollo Web en Cancún – Tiendas Online y Más";
             break;
         case "nosotros":
             $name='Nosotros';
             $title="Nosotros DevsCun";
             break;
         case "portafolio":
-            $name='Portafolio';
-            $title="Portafolio DevsCun";
+            $name='Portafolio de Diseño y Desarrollo Web - Devscun';
+            $title="Portafolio de Diseño y Desarrollo Web en Cancún | DevsCun";
             break;
 
         case "blog":

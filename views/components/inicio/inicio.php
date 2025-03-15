@@ -74,7 +74,7 @@
 <div class="responsibe">
     <div class="contenedor-responsibe contenedor">
         <div class="contenido-responsibe ">
-            <h3>Diseño Web Responsivo: Optimizado para Móviles</h3>
+            <h3>Diseño Web Responsivo y Optimizado para Móviles en Cancún</h3>
             <p>Hoy en día, más usuarios navegan desde dispositivos móviles que nunca antes. Por eso, adoptamos el enfoque <strong>mobile-first</strong>, asegurando que tu contenido se adapte de manera perfecta a cualquier tamaño de pantalla. De esta forma, garantizamos que tu sitio web sea accesible y funcional para todos, sin importar el dispositivo que utilicen. </p>
             
             <p>Beneficios del diseño responsivo</p>
