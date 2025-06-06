@@ -97,18 +97,45 @@
 
     @include m.tablet(){
 
-        
         .cta-button {
-            display: inline-block;
-            padding: 15px 20px;
-            background-color: v.$colorPrimario;
-            color: #fff;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
-            transition: background 0.3s;
-
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        background-color: #25D366;
+        color: #fff;
+        padding: 14px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
+
+        .cta-button:hover {
+        background-color: #1ebe5d;
+        }
+
+        .cta-button .icon svg {
+        width: 28px;
+        height: 28px;
+        }
+
+        .cta-button .text {
+        display: inline-block;
+        }
+
+        // .cta-button {
+        //     display: inline-block;
+        //     padding: 15px 20px;
+        //     background-color: v.$colorPrimario;
+        //     color: #fff;
+        //     text-decoration: none;
+        //     font-size: 18px;
+        //     border-radius: 5px;
+        //     transition: background 0.3s;
+
+        // }
         
         @include m.background-imagen('../../../assets/img/banner-diseño-web.webp');
         .container-promotion {

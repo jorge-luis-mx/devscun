@@ -267,7 +267,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    margin: 1rem;
     .somos{
         flex: 0 0 calc(100%);
         margin-top: 1rem;
@@ -289,6 +289,7 @@
     }
 
     @include m.tablet(){
+        margin: 0rem;
         .somos{
             flex: 0 0 calc(50%);
         }
