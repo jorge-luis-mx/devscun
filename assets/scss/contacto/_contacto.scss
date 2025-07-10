@@ -6,9 +6,10 @@
    .container-contact {
       display: flex;
       justify-content: start;
-      gap: 2rem;
+      gap: 1rem;
       padding-top: 30px;
       flex-wrap: wrap;
+      padding: 1rem;
    }
    
    .custom-link {
@@ -20,8 +21,9 @@
       border-radius: 8px;
       border: 1px solid #b9daff;
       transition: all 0.3s ease;
-      min-width: 250px;
-      max-width: 300px;
+      // min-width: 250px;
+      // max-width: 300px;
+      width: 100%;
       overflow: hidden;
       position: relative;
    }
@@ -53,6 +55,7 @@
   .form-container {
       margin-top: 20px;
       margin-bottom: 20px;
+      padding: 1rem;
    }
    
    .form-description {
@@ -107,7 +110,7 @@
    }
    
    #submitContact {
-      padding: 12px 25px;
+      padding: 16px 25px;
       font-size: 1rem;
       border: none;
       background-color: #0f1b57;
@@ -135,4 +138,19 @@
     }
 }
 
+@include m.tablet(){
 
+   .container-contact {
+      gap: 2;
+      padding: 0rem;
+   }
+   
+   .custom-link {
+      min-width: 250px;
+      max-width: 300px;
+   }
+
+   .form-container {
+      padding: 0rem;
+   }
+}

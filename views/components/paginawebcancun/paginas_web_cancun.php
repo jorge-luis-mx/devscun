@@ -10,7 +10,7 @@
             <p>Apoyados en tecnologías actuales y a la vanguardia, haremos que tus usuarios puedan navegar en una web con grata experiencia, contenido informativo, y con ello lograr porcentajes altos de conversión para las acciones definidas (o a definir).</p>
             <!-- <p>Aquellos negocios en Cancún y sus alrededores que cuentan con una página web, han visto potenciado y consolidado su modelo, logrando que no sólo quienes se encuentren en el destino tengan acceso a los servicios que estos ofrecen, sino también dando oportunidad a usuarios de todo el mundo de conocer sus productos, lograr reservas, más ventas y mayor crecimiento.</p> -->
             <!-- <p><a href="contacto">Contactar <i class="fas fa-arrow-right"></i></a></p> -->
-            <a href="contacto"><button class="btn">Contacto</button></a>
+            <a href="contacto" class="btn">Contacto</a>
             
          </div>
          <div class="img-web-cancun">
