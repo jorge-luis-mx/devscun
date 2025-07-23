@@ -10,8 +10,7 @@ if(isset($_GET['route'])){
             $title="Paginas web o Tienda online en Cancún";
             break;
         case "servicios-de-paginas-web-cancun":
-            $name='Servicios profesionales
-            de diseño web';
+            $name='Servicios profesionales de diseño web en Cancún';
             $title="Sevicios de paginas web o tienda online en Cancún";
             break;
         case "precios-de-paginas-web-cancun":
