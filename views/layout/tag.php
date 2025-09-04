@@ -200,7 +200,7 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="<?=base_url?>assets/img/favicon.ico" /> 
     <link rel="stylesheet" href="<?=base_url?>assets/build/css/app.css<?=cssv?>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <?php
     //si es blog se carga su propio css y js

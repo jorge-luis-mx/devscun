@@ -27,16 +27,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
    }
    
    // Input keypress
-
    const wereinputs = document.querySelectorAll('.form-control'); // Asegura que seleccionas los inputs correctos
-
-if (wereinputs) {
-    wereinputs.forEach((input) => {
-        input.addEventListener('keypress', (e) => {
-         dealsModule.removeError(e.target); // Pasa el input que activó el evento
-        });
-    });
-}
+   if (wereinputs) {
+      wereinputs.forEach((input) => {
+         input.addEventListener('keypress', (e) => {
+            dealsModule.removeError(e.target); // Pasa el input que activó el evento
+         });
+      });
+   }
 
    // Is numeric 
    const numericInputs = document.querySelectorAll('.justnumeric');
@@ -57,36 +55,10 @@ if (wereinputs) {
    }
 
 
-   // const inputs = document.querySelectorAll('#contactoForm input');
-   // if(inputs != null) {
-  
-
-   // }
-
-
-
    const dealsModule = {
 
       showMenu: function(e) {
-         // var btn=document.querySelector(".btn-menu span");
-         // //realizamos una condicion donde comparamos la clase obtenida es igual igual
-         // if (btn.getAttribute('class')=='fas fa-bars') {
-         // //removemos la clase actual y agregamos una nueva clase
-         // btn.classList.remove('fas', 'fa-bars');
-         // btn.classList.add('fas','fa-times');
-         // //nuevamente hacemos queryselector para obtenemos la clase 
-         // var menu=document.querySelector(".menu-link");
-         // //mostramos la clase csss y quitar si ya existe
-         // menu.classList.add("mostrarMenuMovil");
-         // menu.classList.remove('quitarMenuMovil');
-         // }else{
-         // //removemos la clase actual y agregamos una nueva clase
-         // btn.classList.remove('fas','fa-times');
-         // btn.classList.add('fas', 'fa-bars');
-         // var menu=document.querySelector(".menu-link");
-         // menu.classList.add("quitarMenuMovil");
-         // menu.classList.remove('mostrarMenuMovil');
-         // }
+
          var iconAmburger = document.querySelector(".icon-amburger");
          var iconClose = document.querySelector(".icon-close");
      
@@ -221,13 +193,6 @@ if (wereinputs) {
                      confirmButtonColor: "#3085d6",
                   });
                contacto.reset();
-               // const wereinputs = document.querySelectorAll('.iam-input');
-               // if(wereinputs != null) {
-               //     wereinputs.forEach((input) => {
-               //         input.value = "";
-               //     });
-               // }
-
             }
          } catch (e) {
               console.log('fetch failed', e);
@@ -261,9 +226,9 @@ if (wereinputs) {
      }
 
    }
-//primer comentario min
-//segundo compilado
-//tercer a pararlel
+   //primer comentario min
+   //segundo compilado
+   //tercer a pararlel
 });
 
 
