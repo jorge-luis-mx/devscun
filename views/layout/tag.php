@@ -200,7 +200,8 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="<?=base_url?>assets/img/favicon.ico" /> 
     <link rel="stylesheet" href="<?=base_url?>assets/build/css/app.css<?=cssv?>">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <?php
     //si es blog se carga su propio css y js
