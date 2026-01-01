@@ -44,6 +44,25 @@
                         </a>
                     </nav>
             </div>
+
+            <div class="footer-bottom">
+                <div class="legal-links">
+                    <ul>
+                        <li>
+                            <a href="politicas-de-privacidad" class="legal-link">Política de Privacidad</a>
+                        </li>
+                        <li> 
+                            <a href="terminos-y-condiciones" class="legal-link">Términos y Condiciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Sección de créditos y copyright -->
+        <div class="footer-copyright">
+            <div class="contenedor">
+                <p>© 2026 Devscun. Todos los derechos reservados.</p>
+            </div>
         </div>
     </footer>
     <input type="hidden" id="rutaActual" value="<?php echo base_url.'blog/';?>">

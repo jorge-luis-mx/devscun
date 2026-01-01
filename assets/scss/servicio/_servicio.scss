@@ -3,26 +3,22 @@
 
 .caja-servicios{
    margin-bottom: 2rem;
-   // .subtitle-servicio{
-   //    font-size: 1.5rem;
-   //    line-height: 2.5rem;
-   //    color: v.$negro;
-   //    text-align: center;
-   // }
 
+   h2 span{
+      color:v.$colorSecundario;
+   }
    .contenedor-centro {
-      max-width: 740px;     /* Puedes ajustar a 1140px, 768px, etc., según tu diseño */
-      margin: 0 auto;       /* Centra horizontalmente */
-      padding: 0 20px;      /* Espaciado interno lateral */
-      text-align: center;   /* Centra el texto */
+      max-width: 740px;     
+      margin: 0 auto;       
+      padding: 0 20px;      
+      text-align: center;   
+      .subtitle-servicio {
+         margin-top: 2rem;
+
+      }
    }
 
-   .subtitle-servicio {
-      font-size: 1.5rem;    /* Ajusta el tamaño según lo que necesites */
-      line-height: 2.3rem;
-      color: #333;
-      margin-top: 2rem;
-   }
+
 
 
   .service-container{
@@ -41,10 +37,8 @@
         .caja-servicio{
          padding: .5rem;
             h3{
-               color: v.$negro;
-               font-weight: normal;
+               color:v.$colorSecundario;
                text-align: center;
-               font-size: 1.5rem;
                padding: 10px;
                padding-top: 0px
             }
@@ -63,7 +57,7 @@
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  background-color: #6398ff;
+                  background: linear-gradient(135deg, #15297c 0%, #2898ee 100%);
                   width: 90px;
                   height: 90px;
                   border-radius: 100%;
@@ -128,31 +122,14 @@
    }
 
 
-   // .contact-section {
 
-   //    padding: 40px;
-   //    text-align: center;
-
-   // }
-        
-   // .contact-section h2 {
-   //    font-size: 32px;
-   //    font-weight: 700;
-   //    margin-bottom: 16px;
-   // }
-        
-   // .contact-section p {
-   //    font-size: 18px;
-   //    opacity: 0.9;
-   //    margin-bottom: 24px;
-
-   // }
         
 
 }
 
         .cta-section {
-            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            
+            background: linear-gradient(135deg, #15297c 0%, #2898ee 100%);
             color: white;
             padding: 4rem 3rem;
             text-align: center;
@@ -184,8 +161,6 @@
         }
 
         .cta-title {
-            font-size: 2rem;
-            font-weight: 700;
             margin-bottom: 1rem;
             color: white;
         }
@@ -201,16 +176,15 @@
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
-            //background: #3b82f6;
+
             color: white;
             padding: 1rem 2rem;
             text-decoration: none;
             border-radius: 8px;
-            //font-weight: 600;
+
             font-size: 1rem;
             transition: all 0.3s ease;
-            //box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
-            //border: 1px solid #3b82f6;
+
         }
 
         .btn:hover {
@@ -264,9 +238,7 @@
         }
 
         .feature-title {
-            font-size: 1.75rem;
-            font-weight: 700;
-            color: #1e293b;
+
             margin-bottom: 1.5rem;
         }
 

@@ -6,6 +6,8 @@ require_once 'controllers/ServiciosController.php';
 require_once 'controllers/PreciosController.php';
 require_once 'controllers/PortafolioController.php';
 require_once 'controllers/NosotrosController.php';
+require_once 'controllers/PoliticasPrivacidadController.php';
+require_once 'controllers/TerminosCondicionesController.php';
 require_once 'controllers/ContactoController.php';
 require_once 'controllers/EmailController.php';
 require_once 'controllers/Pagina404Controller.php';

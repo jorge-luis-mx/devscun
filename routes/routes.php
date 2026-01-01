@@ -52,6 +52,16 @@ if(isset($_GET['route'])){
 				$objController = new contactoController;
 				$objController->index();
 					
+			}else if ($_GET['route']=="politicas-de-privacidad") {
+
+				$objController = new politicasPrivacidadController;
+				$objController->index();
+					
+			}else if ($_GET['route']=="terminos-y-condiciones") {
+
+				$objController = new terminosCondicionesController;
+				$objController->index();
+					
 			}else {
 
 				if (!isset($rutas[1])) {

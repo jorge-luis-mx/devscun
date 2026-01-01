@@ -47,8 +47,14 @@ if(isset($_GET['route'])){
 }
 
 ?>
+<?php if (
+    ($_GET['route'] ?? '') != 'politicas-de-privacidad' &&
+    ($_GET['route'] ?? '') != 'terminos-y-condiciones'
+): ?>
 <div class="banner">
     <div class="contenido-banner contenedor">
-        <h1 title="<?=$title??null?>"><?=$name;?></h1>
+        <h1 title="<?= $title ?? null ?>"><?= $name; ?></h1>
     </div>
 </div>
+<?php endif; ?>
+

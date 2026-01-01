@@ -1,19 +1,23 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
+
 .footer{
    border-top: 1px solid darken(v.$gris, 10);
-   background-color: hsla(221, 14%, 96%, 1);
+   background-color: #f8f9fa; // Gris muy claro
+   
    .contenedor-footer{
         display: flex;
         flex-direction: column;
         padding: 1rem;
         padding-top: 2rem;
+        
         .menu{
             display: flex;
             flex-direction: column;
             margin-bottom: 1rem;
             flex: 1;
+            
             .principal{
                 font-size: 1.2rem;
                 font-weight: 400;
@@ -22,8 +26,8 @@
                 text-decoration: none;
                 margin-bottom: 10px;
             }
+            
             .enlace{
-
                 display: flex;
                 align-items: center;
                 color: v.$negro;
@@ -31,23 +35,116 @@
                 font-family: v.$fuente_principal;
                 font-weight: 300;
                 margin-bottom: 15px;
+                transition: color 0.3s ease;
+                
+                &:hover{
+                    color: lighten(v.$negro, 30);
+                }
                 
                 span{
                     margin-left: 5px;
                 }
             }
         }
-
     }
+
+    // Enlaces Legales
+    .footer-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 1rem 1rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.08); // Línea sutil
+        
+        .legal-links{
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+                
+                li{
+                    position: relative;
+                    
+                    // Separador entre elementos
+                    &:not(:last-child)::after{
+                        content: '|';
+                        position: absolute;
+                        right: -0.6rem;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        color: rgba(0, 0, 0, 0.25);
+                        font-size: 0.9rem;
+                        font-weight: 300;
+                    }
+                }
+            }
+            
+            .legal-link{
+                color: #6c757d; // Gris medio profesional
+                text-decoration: none;
+                font-size: 0.9rem;
+                font-family: v.$fuente_principal;
+                font-weight: 400;
+                transition: all 0.3s ease;
+                position: relative;
+                padding-bottom: 3px;
+                display: inline-block;
+                
+                // Línea animada en hover
+                &::after{
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 0;
+                    height: 2px;
+                    background-color: v.$negro;
+                    transition: width 0.3s ease;
+                }
+                
+                &:hover{
+                    color: v.$negro;
+                    
+                    &::after{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    // Copyright - Fondo más oscuro para contraste
+    .footer-copyright{
+        background-color: #e9ecef; // Gris claro medio
+        padding: 1.5rem 1rem;
+        text-align: center;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+        
+        p{
+            color: #6c757d; // Gris medio
+            font-size: 0.85rem;
+            font-family: v.$fuente_principal;
+            font-weight: 400;
+            margin: 0;
+        }
+    }
+
     @include m.tablet{
         .contenedor-footer{
             flex-direction: row;
             flex-wrap: wrap;
+            
             .menu{
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 1rem;
                 flex: 1;
+                
                 .principal{
                     font-size: 1.2rem;
                     font-weight: 400;
@@ -56,6 +153,7 @@
                     text-decoration: none;
                     margin-bottom: 5px;
                 }
+                
                 .enlace{
                     font-size: 1rem;
                     color: v.$negro;
@@ -64,15 +162,38 @@
                     font-weight: 300;
                     padding: .5rem 0rem .5rem 0rem;
                     margin-bottom: 0px;
+                    
                     span{
                         margin-left: 5px;
                     }
                 }
             }
+        }
 
+        .footer-bottom{
+            padding: 2rem 1rem;
+            
+            .legal-links{
+                ul{
+                    gap: 1.5rem;
+                    
+                    li:not(:last-child)::after{
+                        right: -0.85rem;
+                    }
+                }
+                
+                .legal-link{
+                    font-size: 0.95rem;
+                }
+            }
+        }
+
+        .footer-copyright{
+            padding: 2rem 1rem;
+            
+            p{
+                font-size: 0.9rem;
+            }
         }
     }
-
-
 }
-
